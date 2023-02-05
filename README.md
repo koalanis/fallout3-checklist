@@ -39,9 +39,9 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 All edits, suggestions, issues and PRs are welcome! 
 
 ## TODO
-- Collectable Tracking
-- Save + Load JSON savefile
-- More theming
+- [ ] Collectable Tracking
+- [ ] Save + Load JSON savefile
+- [ ] More theming
 
 ## CHANGELOG
 Updated README
