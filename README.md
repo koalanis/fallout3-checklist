@@ -34,3 +34,16 @@ All commands are run from the root of the project, from a terminal:
 ### Want to learn more about Astro?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Contributing
+All edits, suggestions, issues and PRs are welcome! 
+
+## TODO
+- Collectable Tracking
+- Save + Load JSON savefile
+- More theming
+
+## CHANGELOG
+Updated README
+Added Quests
+Initial Styling and Github Pages deployment
