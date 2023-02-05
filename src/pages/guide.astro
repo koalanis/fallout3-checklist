@@ -1,0 +1,30 @@
+---
+
+import Layout from '../layouts/layout.astro'
+import data from '../data/quests.json';
+import Checkbox from '../components/checkbox.astro';
+---
+
+<Layout showNav>
+	<div class="grid place-items-center text-lime-500 text-center text-mono m-2">
+    <h1 class="text-7xl m-2 underline mb-8">Quests</h1>
+    <div class="grid sm:grid-cols-2 gap-2">
+      {data["quests"].map( datum => {
+        return (
+          <div class="border border-lime-500 flex flex-row align-center">
+            <div class="text-left col-span-2 p-2">
+              <div class="text-2xl">{datum["name"]}</div>
+              <div>{`Location: ${datum["location"]}`}</div>
+              <div>{`Acquired by ${datum["acquired"]}`}</div>  
+            </div>
+            <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
+              <Checkbox label="Found"/>
+              {datum["repeatable"] === "f" && <Checkbox label="Done"/>}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</Layout>
+

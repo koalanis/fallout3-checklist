@@ -1,0 +1,107 @@
+name,type,location,acquired,available,wikiUrl,repeatable,dlc
+Baby Steps,main,Vault 101,Dad,,,f,main
+Growing Up Fast,main,Vault 101,Overseer,,,f,main
+Future Imperfect,main,Vault 101,Dad,,,f,main
+Escape,main,Vault 101,Amata,,,f,main
+Trouble on the Homefront,side,Vault 101,Vault 101 Distress Signal,,,f,main
+Following in His Footsteps,main,Megaton,After completing Escape!,,,f,main
+Blood Ties,side,Megaton,Lucy West / Evan King,,,f,main
+The Power of the Atom,side,Megaton,Lucas Sims / Mister Burke,,,f,main
+Wasteland Survival Guide,side,Megaton,Moira Brown,,,f,main
+Leo's Drug Habit,unmarked,Megaton,Doc Church / Mister Burke,,,f,main
+Treatment,unmarked,Megaton,Walter,,,f,main
+Galaxy News Radio,main,Megaton,Three Dog,,,f,main
+Jigg's Loot,unmarked,Megaton,Prime (via terminal),,,f,main
+Church Donations,unmarked,Megaton,Confessor Cromwell,,,t,main
+Walter's Scrap Metal,unmarked,Megaton,Walter,,,t,main
+Water Beggars,unmarked,Megaton,"Micky, outside Megaton",,,t,main
+Scientific Pursuits,main,Rivet City,Three Dog / Dr. Lee,,,f,main
+Tranquility Lane,main,Rivet City,After Scientific Pursuits,,,f,main
+The Waters of Life,main,Rivet City,Dad,,,f,main
+Stealing Independence,side,Rivet City,Abraham Washington,,,f,main
+The Replicated Man,side,Rivet City,Dr. Zimmer,,,f,main
+A Nice Day for a Right Wedding,unmarked,Rivet City,Angela Staley,,,f,main
+Council Seat,unmarked,Rivet City,Bannon,,,f,main
+Slave Hunt,unmarked,Rivet City,Mei Wong,,,f,main
+Overdose,unmarked,Rivet City,Paulie Cantelli,,,f,main
+Water Beggars,unmarked,Rivet City,"Carlos, outside Rivet City",,,t,main
+Church Donations,unmarked,Rivet City,Father Clifford,,,t,main
+Picking Up the Trail,main,The Citadel,Elder Lyons,,,f,main
+The American Dream,main,The Citadel,President Eden,,,f,main
+Take It Back!,main,The Citadel,Elder Lyons,,,f,main
+Project Impurity,main,The Citadel,President Eden,,,f,main
+Gallows Humor,unmarked,The Citadel,Paladin Kodiak,,,f,main
+Collecting Holotags,unmarked,The Citadel,Scribe Jameson,,,t,main
+Strictly Business,side,Paradise Falls,Grouse,,,f,main
+Rescue from Paradise,side,Paradise Falls,Mayor MacCready / Sammy,,,f,main
+Economics of Violence,unmarked,Paradise Falls,Pronto,,,f,main
+The Kid-Kidnapper,unmarked,Paradise Falls,Eulogy Jones,,,f,main
+Strictly Profitable,side,Paradise Falls,Grouse,,,t,main
+Happy Birthday to You,unmarked,Little Lamplight,Sticky,,,f,main
+Fungus Deal,side,Little Lamplight,Lucy / Eclair,,,t,main
+Zip's Nuka Fix,side,Little Lamplight,Zip,,,t,main
+You Gotta Shoot 'Em in the Head,side,Underworld,Mister Crowley,,,f,main
+Hired Help,unmarked,Underworld,Ahzrukhal,,,f,main
+This Old House,unmarked,Underworld,Winthrop,,,t,main
+Agatha's Song,side,Agatha's House,Agatha,,,f,main
+Big Trouble in Big Town,side,Anyone in Big Town,Big Town,,,f,main
+Head of State,side,Temple of the Union,Hannibal Hamlin,,,f,main
+Oasis,side,Oasis,Harold,,,f,main
+Tenpenny Tower,side,Tenpenny Tower,Gustavo / Roy Phillips,,,f,main
+The Superhuman Gambit,side,Canterbury Commons,Uncle Roe,,,f,main
+Those!,side,Grayditch,Brain Wilks,,,f,main
+A Manhandled Manservant,unmarked,Rockopolis,Argyle's Corpse,,,f,main
+Election Day,unmarked,The Republic of Dave,Dave,,,f,main
+Grady's Package,unmarked,Marigold Station,Grady's Corpse,,,f,main
+Just for the Taste of It,unmarked,Nuka Cola Plant / Red Racer Factory,Winger Mercier's Corpse,,,f,main
+Keller Family Refuge,unmarked,Capital Wasteland,A keller family transcript,,,f,main
+Lincoln's Profit Margins,unmarked,Museum of History,Abraham Washington / Hannibal Hamlin / Leroy Walker,,,f,main
+Merchant Empire,unmarked,Canterbury Commons,Uncle Roe,,,f,main
+Our Little Secret,unmarked,Andale,Old Man Harris,,,f,main
+Searching for Cheryl,unmarked,L'Enfant South,Finding the burial mound,,,f,main
+The Lost Initiate,unmarked,Falls Church,Argyle's Corpse,,,f,main
+Geomapping with Reilly,side,Ranger Compound,Reilly,,,t,main
+I Want to Drink Your Blood,side,Meresti Metro Station,Vance,,,t,main
+Mississippi Quantum Pie,side,Girdershade,Sierra Petrovita,,,f,main
+Murphy's Bombing Run,side,Northwest Seneca Station,Murphy,,,t,main
+Nectar Collecting for Fun and Profit,side,Grayditch,Doctor Lesko,,,t,main
+Ryan Brigg's Wonder Meat,side,Jury St. Station,Wonder Meat Maker,,,t,main
+The Outcast Collection Agent,side,Fort Independence,Protector Casdin,,,t,main
+Water Beggars,side,Tenpenny Tower,"Willy, outside Tenpenny Tower",,,t,main
+Yearning for Learning,side,Arlington Library,Scribe Yearling,,,t,main
+Aiding the Outcasts,side,Bailey's Crossroads,Outcast distress signal,,,f,operation_anchorage
+The Guns of Anchorage,side,Anchorage Reclamation Simulation,Sgt. Benjamin Montgomery,,,f,operation_anchorage
+Paving the Way,side,Anchorage Reclamation Simulation,General Chase,,,f,operation_anchorage
+Operation: Anchorage!,side,Anchorage Reclamation Simulation,General Chase,,,f,operation_anchorage
+Into The Pitt,side,Radio Tower,Wernher,,,f,the_pitt
+Unsafe Working Conditions,side,Pitt Steelyard,Midea,,,f,the_pitt
+Free Labor,side,Haven,Kernshaw,,,f,the_pitt
+Mill Worker,unmarked,Pitt Steelyard,Everett,,,f,the_pitt
+Wild Bill's Last Stand,unmarked,Downtown,Milly,,,f,the_pitt
+Slave Snitch,unmarked,The Mill,Brand,,,f,the_pitt
+Toys for Tots,side,Downtown / Haven,Midea / Sandra,,,t,the_pitt
+Death From Above,main,The Citadel,Owens Lyons,,,f,broken_steel
+Shock Value,main,The Citadel,Paladin Tristan,,,f,broken_steel
+Who Dares Wins,main,The Citadel,Paladin Tristan,,,f,broken_steel
+Holy Water,side,Jefferson Memorial,Scribe Bigsley,,,f,broken_steel
+Protecting the Water Way,side,Jefferson Memorial,Scribe Bigsley,,,f,broken_steel
+The Amazing Aqua Cura!,side,Museum of History,Scribe Bigsley,,,f,broken_steel
+The Sorrowful Suitor,unmarked,Presidential Metro,"Sorry, My Darling holotape",,,f,broken_steel
+Water Caravan Squabble,unmarked,Megaton,Caravan Guards / Megaton Settlers,,,f,broken_steel
+Getting Ready for Prime Time,unmarked,The Citadel,Scribe Rothchild,,,t,broken_steel
+Blood Brotherhood,unmarked,The Citadel,Paladin Tristan,,,t,broken_steel
+The Local Flavor,main,Riverboat Landing,Notification,,,f,point_lookout
+Walking with Spirits,main,Ark & Dove Cathedral,Desmond,,,f,point_lookout
+Hearing Voices,main,Ark & Dove Cathedral,Desmond,,,f,point_lookout
+Thought Control,main,Calvert Mansion,Desmond,,,f,point_lookout
+A Meeting of the Minds,main,Calvert Mansion,Desmond,,,f,point_lookout
+A Spoonful of Whiskey,side,Marguerite's Shack,Marguerite,,,f,point_lookout
+An Antique Land,side,USS Ozymandias,Notification,,,f,point_lookout
+Plik's Safari,side,Coastal Grotto,Plik,,,f,point_lookout
+The Dark Heart of Blackhall,side,Blackhall Manor,Obadiah Blackhall,,,f,point_lookout
+The Velvet Curtain,side,Homestead Motel,Terminal in Room 1D,,,f,point_lookout
+Tailing the Tomboy,unmarked,Riverboat Landing,Catherine,,,f,point_lookout
+Not of This World,side,Mothership Zeta,Notification,,,f,zeta
+Among the Stars,side,Mothership Zeta,Sally,,,f,zeta
+This Galaxy Ain't Big Enough...,side,Mothership Zeta,Sally,,,f,zeta
+The Legend of Zeta,side,Mothership Zeta,Self,,,f,zeta

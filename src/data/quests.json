@@ -1,0 +1,1064 @@
+{
+    "quests": [
+        {
+            "name": "Baby Steps",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Dad",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Growing Up Fast",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Overseer",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Future Imperfect",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Dad",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Escape",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Amata",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Trouble on the Homefront",
+            "type": "side",
+            "location": "Vault 101",
+            "acquired": "Vault 101 Distress Signal",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Following in His Footsteps",
+            "type": "main",
+            "location": "Megaton",
+            "acquired": "After completing Escape!",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Blood Ties",
+            "type": "side",
+            "location": "Megaton",
+            "acquired": "Lucy West / Evan King",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "The Power of the Atom",
+            "type": "side",
+            "location": "Megaton",
+            "acquired": "Lucas Sims / Mister Burke",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Wasteland Survival Guide",
+            "type": "side",
+            "location": "Megaton",
+            "acquired": "Moira Brown",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Leo's Drug Habit",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Doc Church / Mister Burke",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Treatment",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Walter",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Galaxy News Radio",
+            "type": "main",
+            "location": "Megaton",
+            "acquired": "Three Dog",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Jigg's Loot",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Prime (via terminal)",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Church Donations",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Confessor Cromwell",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Walter's Scrap Metal",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Walter",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Water Beggars",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Micky, outside Megaton",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Scientific Pursuits",
+            "type": "main",
+            "location": "Rivet City",
+            "acquired": "Three Dog / Dr. Lee",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Tranquility Lane",
+            "type": "main",
+            "location": "Rivet City",
+            "acquired": "After Scientific Pursuits",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "The Waters of Life",
+            "type": "main",
+            "location": "Rivet City",
+            "acquired": "Dad",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Stealing Independence",
+            "type": "side",
+            "location": "Rivet City",
+            "acquired": "Abraham Washington",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "The Replicated Man",
+            "type": "side",
+            "location": "Rivet City",
+            "acquired": "Dr. Zimmer",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "A Nice Day for a Right Wedding",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Angela Staley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Council Seat",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Bannon",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Slave Hunt",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Mei Wong",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Overdose",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Paulie Cantelli",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Water Beggars",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Carlos, outside Rivet City",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Church Donations",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Father Clifford",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Picking Up the Trail",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Elder Lyons",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "The American Dream",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "President Eden",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Take It Back!",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Elder Lyons",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Project Impurity",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "President Eden",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Gallows Humor",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Paladin Kodiak",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Collecting Holotags",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Scribe Jameson",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Strictly Business",
+            "type": "side",
+            "location": "Paradise Falls",
+            "acquired": "Grouse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Rescue from Paradise",
+            "type": "side",
+            "location": "Paradise Falls",
+            "acquired": "Mayor MacCready / Sammy",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Economics of Violence",
+            "type": "unmarked",
+            "location": "Paradise Falls",
+            "acquired": "Pronto",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "The Kid-Kidnapper",
+            "type": "unmarked",
+            "location": "Paradise Falls",
+            "acquired": "Eulogy Jones",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Strictly Profitable",
+            "type": "side",
+            "location": "Paradise Falls",
+            "acquired": "Grouse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Happy Birthday to You",
+            "type": "unmarked",
+            "location": "Little Lamplight",
+            "acquired": "Sticky",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Fungus Deal",
+            "type": "side",
+            "location": "Little Lamplight",
+            "acquired": "Lucy / Eclair",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Zip's Nuka Fix",
+            "type": "side",
+            "location": "Little Lamplight",
+            "acquired": "Zip",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "You Gotta Shoot 'Em in the Head",
+            "type": "side",
+            "location": "Underworld",
+            "acquired": "Mister Crowley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Hired Help",
+            "type": "unmarked",
+            "location": "Underworld",
+            "acquired": "Ahzrukhal",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "This Old House",
+            "type": "unmarked",
+            "location": "Underworld",
+            "acquired": "Winthrop",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Agatha's Song",
+            "type": "side",
+            "location": "Agatha's House",
+            "acquired": "Agatha",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Big Trouble in Big Town",
+            "type": "side",
+            "location": "Anyone in Big Town",
+            "acquired": "Big Town",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Head of State",
+            "type": "side",
+            "location": "Temple of the Union",
+            "acquired": "Hannibal Hamlin",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Oasis",
+            "type": "side",
+            "location": "Oasis",
+            "acquired": "Harold",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Tenpenny Tower",
+            "type": "side",
+            "location": "Tenpenny Tower",
+            "acquired": "Gustavo / Roy Phillips",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "The Superhuman Gambit",
+            "type": "side",
+            "location": "Canterbury Commons",
+            "acquired": "Uncle Roe",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Those!",
+            "type": "side",
+            "location": "Grayditch",
+            "acquired": "Brain Wilks",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "A Manhandled Manservant",
+            "type": "unmarked",
+            "location": "Rockopolis",
+            "acquired": "Argyle's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Election Day",
+            "type": "unmarked",
+            "location": "The Republic of Dave",
+            "acquired": "Dave",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Grady's Package",
+            "type": "unmarked",
+            "location": "Marigold Station",
+            "acquired": "Grady's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Just for the Taste of It",
+            "type": "unmarked",
+            "location": "Nuka Cola Plant / Red Racer Factory",
+            "acquired": "Winger Mercier's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Keller Family Refuge",
+            "type": "unmarked",
+            "location": "Capital Wasteland",
+            "acquired": "A keller family transcript",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Lincoln's Profit Margins",
+            "type": "unmarked",
+            "location": "Museum of History",
+            "acquired": "Abraham Washington / Hannibal Hamlin / Leroy Walker",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Merchant Empire",
+            "type": "unmarked",
+            "location": "Canterbury Commons",
+            "acquired": "Uncle Roe",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Our Little Secret",
+            "type": "unmarked",
+            "location": "Andale",
+            "acquired": "Old Man Harris",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Searching for Cheryl",
+            "type": "unmarked",
+            "location": "L'Enfant South",
+            "acquired": "Finding the burial mound",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "The Lost Initiate",
+            "type": "unmarked",
+            "location": "Falls Church",
+            "acquired": "Argyle's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Geomapping with Reilly",
+            "type": "side",
+            "location": "Ranger Compound",
+            "acquired": "Reilly",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "I Want to Drink Your Blood",
+            "type": "side",
+            "location": "Meresti Metro Station",
+            "acquired": "Vance",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Mississippi Quantum Pie",
+            "type": "side",
+            "location": "Girdershade",
+            "acquired": "Sierra Petrovita",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main"
+        },
+        {
+            "name": "Murphy's Bombing Run",
+            "type": "side",
+            "location": "Northwest Seneca Station",
+            "acquired": "Murphy",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Nectar Collecting for Fun and Profit",
+            "type": "side",
+            "location": "Grayditch",
+            "acquired": "Doctor Lesko",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Ryan Brigg's Wonder Meat",
+            "type": "side",
+            "location": "Jury St. Station",
+            "acquired": "Wonder Meat Maker",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "The Outcast Collection Agent",
+            "type": "side",
+            "location": "Fort Independence",
+            "acquired": "Protector Casdin",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Water Beggars",
+            "type": "side",
+            "location": "Tenpenny Tower",
+            "acquired": "Willy, outside Tenpenny Tower",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Yearning for Learning",
+            "type": "side",
+            "location": "Arlington Library",
+            "acquired": "Scribe Yearling",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main"
+        },
+        {
+            "name": "Aiding the Outcasts",
+            "type": "side",
+            "location": "Bailey's Crossroads",
+            "acquired": "Outcast distress signal",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage"
+        },
+        {
+            "name": "The Guns of Anchorage",
+            "type": "side",
+            "location": "Anchorage Reclamation Simulation",
+            "acquired": "Sgt. Benjamin Montgomery",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage"
+        },
+        {
+            "name": "Paving the Way",
+            "type": "side",
+            "location": "Anchorage Reclamation Simulation",
+            "acquired": "General Chase",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage"
+        },
+        {
+            "name": "Operation: Anchorage!",
+            "type": "side",
+            "location": "Anchorage Reclamation Simulation",
+            "acquired": "General Chase",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage"
+        },
+        {
+            "name": "Into The Pitt",
+            "type": "side",
+            "location": "Radio Tower",
+            "acquired": "Wernher",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt"
+        },
+        {
+            "name": "Unsafe Working Conditions",
+            "type": "side",
+            "location": "Pitt Steelyard",
+            "acquired": "Midea",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt"
+        },
+        {
+            "name": "Free Labor",
+            "type": "side",
+            "location": "Haven",
+            "acquired": "Kernshaw",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt"
+        },
+        {
+            "name": "Mill Worker",
+            "type": "unmarked",
+            "location": "Pitt Steelyard",
+            "acquired": "Everett",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt"
+        },
+        {
+            "name": "Wild Bill's Last Stand",
+            "type": "unmarked",
+            "location": "Downtown",
+            "acquired": "Milly",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt"
+        },
+        {
+            "name": "Slave Snitch",
+            "type": "unmarked",
+            "location": "The Mill",
+            "acquired": "Brand",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt"
+        },
+        {
+            "name": "Toys for Tots",
+            "type": "side",
+            "location": "Downtown / Haven",
+            "acquired": "Midea / Sandra",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "the_pitt"
+        },
+        {
+            "name": "Death From Above",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Owens Lyons",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "Shock Value",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Paladin Tristan",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "Who Dares Wins",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Paladin Tristan",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "Holy Water",
+            "type": "side",
+            "location": "Jefferson Memorial",
+            "acquired": "Scribe Bigsley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "Protecting the Water Way",
+            "type": "side",
+            "location": "Jefferson Memorial",
+            "acquired": "Scribe Bigsley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "The Amazing Aqua Cura!",
+            "type": "side",
+            "location": "Museum of History",
+            "acquired": "Scribe Bigsley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "The Sorrowful Suitor",
+            "type": "unmarked",
+            "location": "Presidential Metro",
+            "acquired": "Sorry, My Darling holotape",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "Water Caravan Squabble",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Caravan Guards / Megaton Settlers",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "Getting Ready for Prime Time",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Scribe Rothchild",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "Blood Brotherhood",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Paladin Tristan",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "broken_steel"
+        },
+        {
+            "name": "The Local Flavor",
+            "type": "main",
+            "location": "Riverboat Landing",
+            "acquired": "Notification",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "Walking with Spirits",
+            "type": "main",
+            "location": "Ark & Dove Cathedral",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "Hearing Voices",
+            "type": "main",
+            "location": "Ark & Dove Cathedral",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "Thought Control",
+            "type": "main",
+            "location": "Calvert Mansion",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "A Meeting of the Minds",
+            "type": "main",
+            "location": "Calvert Mansion",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "A Spoonful of Whiskey",
+            "type": "side",
+            "location": "Marguerite's Shack",
+            "acquired": "Marguerite",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "An Antique Land",
+            "type": "side",
+            "location": "USS Ozymandias",
+            "acquired": "Notification",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "Plik's Safari",
+            "type": "side",
+            "location": "Coastal Grotto",
+            "acquired": "Plik",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "The Dark Heart of Blackhall",
+            "type": "side",
+            "location": "Blackhall Manor",
+            "acquired": "Obadiah Blackhall",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "The Velvet Curtain",
+            "type": "side",
+            "location": "Homestead Motel",
+            "acquired": "Terminal in Room 1D",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "Tailing the Tomboy",
+            "type": "unmarked",
+            "location": "Riverboat Landing",
+            "acquired": "Catherine",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout"
+        },
+        {
+            "name": "Not of This World",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Notification",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta"
+        },
+        {
+            "name": "Among the Stars",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Sally",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta"
+        },
+        {
+            "name": "This Galaxy Ain't Big Enough...",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Sally",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta"
+        },
+        {
+            "name": "The Legend of Zeta",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Self",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta"
+        }
+    ]
+}
