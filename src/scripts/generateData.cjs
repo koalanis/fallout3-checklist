@@ -11,7 +11,8 @@ fs.createReadStream(path.resolve(__dirname, '..', "data", 'quests.csv'))
     .pipe(csv.parse({ headers: true }))
     .on('error', error => console.error(error))
     .on('data', row => {
-        // console.log(row);
+        const val = row["name"].toLowerCase();
+        row["id"] = `quest-${val.replaceAll(" ", "-")}`
         questData.push(row)
     }).on('end', rowCount => {
         console.log(`Parsed ${rowCount} rows`);

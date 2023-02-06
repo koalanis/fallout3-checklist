@@ -3,28 +3,114 @@
 import Layout from '../layouts/layout.astro'
 import data from '../data/quests.json';
 import Checkbox from '../components/checkbox.astro';
+
+const buttonClazz = "border border-lime-500 px-4 py-2"
 ---
 
 <Layout showNav>
 	<div class="grid place-items-center text-lime-500 text-center text-mono m-2">
     <h1 class="text-7xl m-2 underline mb-8">Quests</h1>
-    <div class="grid sm:grid-cols-2 gap-2">
-      {data["quests"].map( datum => {
-        return (
-          <div class="border border-lime-500 flex flex-row align-center">
-            <div class="text-left col-span-2 p-2">
-              <div class="text-2xl">{datum["name"]}</div>
-              <div>{`Location: ${datum["location"]}`}</div>
-              <div>{`Acquired by ${datum["acquired"]}`}</div>  
-            </div>
-            <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-              <Checkbox label="Found"/>
-              {datum["repeatable"] === "f" && <Checkbox label="Done"/>}
-            </div>
-          </div>
-        );
-      })}
-    </div>
+    <game-checklist>
+      <form id="game-form">
+        <div class="p-2">
+          <!-- <button id="loadButton" class={buttonClazz} type="button">Load</button> -->
+          <button id="saveButton" class={buttonClazz} type="button">Save</button>
+          <button id="resetButton" class={buttonClazz} type="reset">Clear</button>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-2">
+          {data["quests"].map( datum => {
+            return (
+              <div class="border border-lime-500 flex flex-row align-center">
+                <div class="text-left col-span-2 p-2">
+                  <div class="text-2xl">{datum["name"]}</div>
+                  <div>{`Location: ${datum["location"]}`}</div>
+                  <div>{`Acquired by ${datum["acquired"]}`}</div>  
+                </div>
+                <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
+                  <Checkbox id={datum["id"]} label="Found"/>
+                  {datum["repeatable"] === "f" && <Checkbox id={datum["id"]} label="Done"/>}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </form>
+    </game-checklist>
   </div>
 </Layout>
 
+
+
+<script>
+  class GameChecklist extends HTMLElement {
+
+    constructor() {
+      super();
+      
+      // Read the message from the data attribute.
+      this.querySelector("#saveButton")?.addEventListener("click",  (e) => {
+        console.log("helllloooo")
+        e.preventDefault();
+        this.saveData(e.target);
+      });
+
+      this.querySelector("#loadButton")?.addEventListener("click",  (e) => {
+        e.preventDefault();
+        this.loadData();
+      });
+
+      this.querySelector("form")?.addEventListener("reset", (e) => {
+        localStorage.removeItem("f3data");
+      });
+
+      this.querySelector("form")?.addEventListener("change", (e) => {
+        this.saveData(e.target);
+      });
+
+      this.loadData();
+    }
+
+    getForm() {
+      return new FormData(this.querySelector('form'))
+    }
+
+
+    handleData(form) {
+      let formData =  this.getForm();
+
+      // iterate through entries...
+      for (let pair of formData.entries()) {
+        console.log(pair[0] + ": " + pair[1]);
+      }
+
+      // ...or output as an object
+      console.log(Object.fromEntries(formData));
+    }
+
+    saveData() {
+      console.log("saving data...")
+      let formData = this.getForm();
+      const f3data = Object.fromEntries(formData);
+      localStorage.setItem("f3data", JSON.stringify(f3data));
+    }
+
+    loadData() {
+      console.log("load data...")
+      const f3data = JSON.parse(localStorage.getItem("f3data"));
+      if(f3data) {
+        for(let key of Object.keys(f3data)) {
+          if(f3data[key] === "true"){
+            console.log(key)
+            let selectElement = this.querySelector(`input[name="${key}"]`) as HTMLInputElement;
+            console.log("selectElement", selectElement)
+            selectElement.checked = true;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  customElements.define('game-checklist', GameChecklist);
+</script>
