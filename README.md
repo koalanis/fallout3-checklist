@@ -42,6 +42,8 @@ All edits, suggestions, issues and PRs are welcome!
 - [ ] Collectable Tracking
 - [ ] Save + Load JSON savefile
 - [ ] More theming
+- [ ] Search / Filtering
+- [ ] Progress Bar
 
 ## CHANGELOG
 Updated README
