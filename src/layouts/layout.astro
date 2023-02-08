@@ -1,11 +1,21 @@
 ---
 import Link from '../components/link.astro'
-const {showNav} = Astro.props;
+const {showNav, baseName} = Astro.props;
+
+let parsedBase = baseName;
+while(parsedBase?.startsWith("/")) {
+	parsedBase = parsedBase.slice(1);
+}
+
+if(parsedBase?.length > 0) {
+	parsedBase = parsedBase+"/"
+}
+
 ---
 
 <html lang="en">
 	<head>
-		<base href="/fallout3-checklist/" />
+		<base href={`/fallout3-checklist/${parsedBase}`} />
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
@@ -14,18 +24,14 @@ const {showNav} = Astro.props;
 		<!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-			href="https://fonts.googleapis.com/css?family=VT323&display=swap"      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=VT323&display=swap" as="style"onload="this.onload=null;this.rel='stylesheet'" />
 		<title>Fallout 3 Checklist</title>
 	</head>
   <body class="bg-stone-900">
 		{showNav && 
 			<nav>
 				<div class="pl-4 pt-4">
-					<Link href="" label="<--- Back to Home" />
+					<Link href="/fallout3-checklist/" label="<--- Back to Home" />
 				</div>
 			</nav>
 		}

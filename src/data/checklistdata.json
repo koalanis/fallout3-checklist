@@ -1,0 +1,5382 @@
+{
+    "quests": [
+        {
+            "name": "Baby Steps",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Dad",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-baby-steps"
+        },
+        {
+            "name": "Growing Up Fast",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Overseer",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-growing-up-fast"
+        },
+        {
+            "name": "Future Imperfect",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Dad",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-future-imperfect"
+        },
+        {
+            "name": "Escape",
+            "type": "main",
+            "location": "Vault 101",
+            "acquired": "Amata",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-escape"
+        },
+        {
+            "name": "Trouble on the Homefront",
+            "type": "side",
+            "location": "Vault 101",
+            "acquired": "Vault 101 Distress Signal",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-trouble-on-the-homefront"
+        },
+        {
+            "name": "Following in His Footsteps",
+            "type": "main",
+            "location": "Megaton",
+            "acquired": "After completing Escape!",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-following-in-his-footsteps"
+        },
+        {
+            "name": "Blood Ties",
+            "type": "side",
+            "location": "Megaton",
+            "acquired": "Lucy West / Evan King",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-blood-ties"
+        },
+        {
+            "name": "The Power of the Atom",
+            "type": "side",
+            "location": "Megaton",
+            "acquired": "Lucas Sims / Mister Burke",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-the-power-of-the-atom"
+        },
+        {
+            "name": "Wasteland Survival Guide",
+            "type": "side",
+            "location": "Megaton",
+            "acquired": "Moira Brown",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-wasteland-survival-guide"
+        },
+        {
+            "name": "Leo's Drug Habit",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Doc Church / Mister Burke",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-leo's-drug-habit"
+        },
+        {
+            "name": "Treatment",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Walter",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-treatment"
+        },
+        {
+            "name": "Galaxy News Radio",
+            "type": "main",
+            "location": "Megaton",
+            "acquired": "Three Dog",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-galaxy-news-radio"
+        },
+        {
+            "name": "Jigg's Loot",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Prime (via terminal)",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-jigg's-loot"
+        },
+        {
+            "name": "Church Donations",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Confessor Cromwell",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-church-donations"
+        },
+        {
+            "name": "Walter's Scrap Metal",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Walter",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-walter's-scrap-metal"
+        },
+        {
+            "name": "Water Beggars",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Micky, outside Megaton",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-water-beggars"
+        },
+        {
+            "name": "Scientific Pursuits",
+            "type": "main",
+            "location": "Rivet City",
+            "acquired": "Three Dog / Dr. Lee",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-scientific-pursuits"
+        },
+        {
+            "name": "Tranquility Lane",
+            "type": "main",
+            "location": "Rivet City",
+            "acquired": "After Scientific Pursuits",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-tranquility-lane"
+        },
+        {
+            "name": "The Waters of Life",
+            "type": "main",
+            "location": "Rivet City",
+            "acquired": "Dad",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-the-waters-of-life"
+        },
+        {
+            "name": "Stealing Independence",
+            "type": "side",
+            "location": "Rivet City",
+            "acquired": "Abraham Washington",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-stealing-independence"
+        },
+        {
+            "name": "The Replicated Man",
+            "type": "side",
+            "location": "Rivet City",
+            "acquired": "Dr. Zimmer",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-the-replicated-man"
+        },
+        {
+            "name": "A Nice Day for a Right Wedding",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Angela Staley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-a-nice-day-for-a-right-wedding"
+        },
+        {
+            "name": "Council Seat",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Bannon",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-council-seat"
+        },
+        {
+            "name": "Slave Hunt",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Mei Wong",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-slave-hunt"
+        },
+        {
+            "name": "Overdose",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Paulie Cantelli",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-overdose"
+        },
+        {
+            "name": "Water Beggars",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Carlos, outside Rivet City",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-water-beggars"
+        },
+        {
+            "name": "Church Donations",
+            "type": "unmarked",
+            "location": "Rivet City",
+            "acquired": "Father Clifford",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-church-donations"
+        },
+        {
+            "name": "Picking Up the Trail",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Elder Lyons",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-picking-up-the-trail"
+        },
+        {
+            "name": "The American Dream",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "President Eden",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-the-american-dream"
+        },
+        {
+            "name": "Take It Back!",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Elder Lyons",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-take-it-back!"
+        },
+        {
+            "name": "Project Impurity",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "President Eden",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-project-impurity"
+        },
+        {
+            "name": "Gallows Humor",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Paladin Kodiak",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-gallows-humor"
+        },
+        {
+            "name": "Collecting Holotags",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Scribe Jameson",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-collecting-holotags"
+        },
+        {
+            "name": "Strictly Business",
+            "type": "side",
+            "location": "Paradise Falls",
+            "acquired": "Grouse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-strictly-business"
+        },
+        {
+            "name": "Rescue from Paradise",
+            "type": "side",
+            "location": "Paradise Falls",
+            "acquired": "Mayor MacCready / Sammy",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-rescue-from-paradise"
+        },
+        {
+            "name": "Economics of Violence",
+            "type": "unmarked",
+            "location": "Paradise Falls",
+            "acquired": "Pronto",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-economics-of-violence"
+        },
+        {
+            "name": "The Kid-Kidnapper",
+            "type": "unmarked",
+            "location": "Paradise Falls",
+            "acquired": "Eulogy Jones",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-the-kid-kidnapper"
+        },
+        {
+            "name": "Strictly Profitable",
+            "type": "side",
+            "location": "Paradise Falls",
+            "acquired": "Grouse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-strictly-profitable"
+        },
+        {
+            "name": "Happy Birthday to You",
+            "type": "unmarked",
+            "location": "Little Lamplight",
+            "acquired": "Sticky",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-happy-birthday-to-you"
+        },
+        {
+            "name": "Fungus Deal",
+            "type": "side",
+            "location": "Little Lamplight",
+            "acquired": "Lucy / Eclair",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-fungus-deal"
+        },
+        {
+            "name": "Zip's Nuka Fix",
+            "type": "side",
+            "location": "Little Lamplight",
+            "acquired": "Zip",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-zip's-nuka-fix"
+        },
+        {
+            "name": "You Gotta Shoot 'Em in the Head",
+            "type": "side",
+            "location": "Underworld",
+            "acquired": "Mister Crowley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-you-gotta-shoot-'em-in-the-head"
+        },
+        {
+            "name": "Hired Help",
+            "type": "unmarked",
+            "location": "Underworld",
+            "acquired": "Ahzrukhal",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-hired-help"
+        },
+        {
+            "name": "This Old House",
+            "type": "unmarked",
+            "location": "Underworld",
+            "acquired": "Winthrop",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-this-old-house"
+        },
+        {
+            "name": "Agatha's Song",
+            "type": "side",
+            "location": "Agatha's House",
+            "acquired": "Agatha",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-agatha's-song"
+        },
+        {
+            "name": "Big Trouble in Big Town",
+            "type": "side",
+            "location": "Anyone in Big Town",
+            "acquired": "Big Town",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-big-trouble-in-big-town"
+        },
+        {
+            "name": "Head of State",
+            "type": "side",
+            "location": "Temple of the Union",
+            "acquired": "Hannibal Hamlin",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-head-of-state"
+        },
+        {
+            "name": "Oasis",
+            "type": "side",
+            "location": "Oasis",
+            "acquired": "Harold",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-oasis"
+        },
+        {
+            "name": "Tenpenny Tower",
+            "type": "side",
+            "location": "Tenpenny Tower",
+            "acquired": "Gustavo / Roy Phillips",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-tenpenny-tower"
+        },
+        {
+            "name": "The Superhuman Gambit",
+            "type": "side",
+            "location": "Canterbury Commons",
+            "acquired": "Uncle Roe",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-the-superhuman-gambit"
+        },
+        {
+            "name": "Those!",
+            "type": "side",
+            "location": "Grayditch",
+            "acquired": "Brain Wilks",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-those!"
+        },
+        {
+            "name": "A Manhandled Manservant",
+            "type": "unmarked",
+            "location": "Rockopolis",
+            "acquired": "Argyle's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-a-manhandled-manservant"
+        },
+        {
+            "name": "Election Day",
+            "type": "unmarked",
+            "location": "The Republic of Dave",
+            "acquired": "Dave",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-election-day"
+        },
+        {
+            "name": "Grady's Package",
+            "type": "unmarked",
+            "location": "Marigold Station",
+            "acquired": "Grady's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-grady's-package"
+        },
+        {
+            "name": "Just for the Taste of It",
+            "type": "unmarked",
+            "location": "Nuka Cola Plant / Red Racer Factory",
+            "acquired": "Winger Mercier's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-just-for-the-taste-of-it"
+        },
+        {
+            "name": "Keller Family Refuge",
+            "type": "unmarked",
+            "location": "Capital Wasteland",
+            "acquired": "A keller family transcript",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-keller-family-refuge"
+        },
+        {
+            "name": "Lincoln's Profit Margins",
+            "type": "unmarked",
+            "location": "Museum of History",
+            "acquired": "Abraham Washington / Hannibal Hamlin / Leroy Walker",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-lincoln's-profit-margins"
+        },
+        {
+            "name": "Merchant Empire",
+            "type": "unmarked",
+            "location": "Canterbury Commons",
+            "acquired": "Uncle Roe",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-merchant-empire"
+        },
+        {
+            "name": "Our Little Secret",
+            "type": "unmarked",
+            "location": "Andale",
+            "acquired": "Old Man Harris",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-our-little-secret"
+        },
+        {
+            "name": "Searching for Cheryl",
+            "type": "unmarked",
+            "location": "L'Enfant South",
+            "acquired": "Finding the burial mound",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-searching-for-cheryl"
+        },
+        {
+            "name": "The Lost Initiate",
+            "type": "unmarked",
+            "location": "Falls Church",
+            "acquired": "Argyle's Corpse",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-the-lost-initiate"
+        },
+        {
+            "name": "Geomapping with Reilly",
+            "type": "side",
+            "location": "Ranger Compound",
+            "acquired": "Reilly",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-geomapping-with-reilly"
+        },
+        {
+            "name": "I Want to Drink Your Blood",
+            "type": "side",
+            "location": "Meresti Metro Station",
+            "acquired": "Vance",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-i-want-to-drink-your-blood"
+        },
+        {
+            "name": "Mississippi Quantum Pie",
+            "type": "side",
+            "location": "Girdershade",
+            "acquired": "Sierra Petrovita",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "main",
+            "id": "quest-mississippi-quantum-pie"
+        },
+        {
+            "name": "Murphy's Bombing Run",
+            "type": "side",
+            "location": "Northwest Seneca Station",
+            "acquired": "Murphy",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-murphy's-bombing-run"
+        },
+        {
+            "name": "Nectar Collecting for Fun and Profit",
+            "type": "side",
+            "location": "Grayditch",
+            "acquired": "Doctor Lesko",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-nectar-collecting-for-fun-and-profit"
+        },
+        {
+            "name": "Ryan Brigg's Wonder Meat",
+            "type": "side",
+            "location": "Jury St. Station",
+            "acquired": "Wonder Meat Maker",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-ryan-brigg's-wonder-meat"
+        },
+        {
+            "name": "The Outcast Collection Agent",
+            "type": "side",
+            "location": "Fort Independence",
+            "acquired": "Protector Casdin",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-the-outcast-collection-agent"
+        },
+        {
+            "name": "Water Beggars",
+            "type": "side",
+            "location": "Tenpenny Tower",
+            "acquired": "Willy, outside Tenpenny Tower",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-water-beggars"
+        },
+        {
+            "name": "Yearning for Learning",
+            "type": "side",
+            "location": "Arlington Library",
+            "acquired": "Scribe Yearling",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "main",
+            "id": "quest-yearning-for-learning"
+        },
+        {
+            "name": "Aiding the Outcasts",
+            "type": "side",
+            "location": "Bailey's Crossroads",
+            "acquired": "Outcast distress signal",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage",
+            "id": "quest-aiding-the-outcasts"
+        },
+        {
+            "name": "The Guns of Anchorage",
+            "type": "side",
+            "location": "Anchorage Reclamation Simulation",
+            "acquired": "Sgt. Benjamin Montgomery",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage",
+            "id": "quest-the-guns-of-anchorage"
+        },
+        {
+            "name": "Paving the Way",
+            "type": "side",
+            "location": "Anchorage Reclamation Simulation",
+            "acquired": "General Chase",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage",
+            "id": "quest-paving-the-way"
+        },
+        {
+            "name": "Operation: Anchorage!",
+            "type": "side",
+            "location": "Anchorage Reclamation Simulation",
+            "acquired": "General Chase",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "operation_anchorage",
+            "id": "quest-operation:-anchorage!"
+        },
+        {
+            "name": "Into The Pitt",
+            "type": "side",
+            "location": "Radio Tower",
+            "acquired": "Wernher",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt",
+            "id": "quest-into-the-pitt"
+        },
+        {
+            "name": "Unsafe Working Conditions",
+            "type": "side",
+            "location": "Pitt Steelyard",
+            "acquired": "Midea",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt",
+            "id": "quest-unsafe-working-conditions"
+        },
+        {
+            "name": "Free Labor",
+            "type": "side",
+            "location": "Haven",
+            "acquired": "Kernshaw",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt",
+            "id": "quest-free-labor"
+        },
+        {
+            "name": "Mill Worker",
+            "type": "unmarked",
+            "location": "Pitt Steelyard",
+            "acquired": "Everett",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt",
+            "id": "quest-mill-worker"
+        },
+        {
+            "name": "Wild Bill's Last Stand",
+            "type": "unmarked",
+            "location": "Downtown",
+            "acquired": "Milly",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt",
+            "id": "quest-wild-bill's-last-stand"
+        },
+        {
+            "name": "Slave Snitch",
+            "type": "unmarked",
+            "location": "The Mill",
+            "acquired": "Brand",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "the_pitt",
+            "id": "quest-slave-snitch"
+        },
+        {
+            "name": "Toys for Tots",
+            "type": "side",
+            "location": "Downtown / Haven",
+            "acquired": "Midea / Sandra",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "the_pitt",
+            "id": "quest-toys-for-tots"
+        },
+        {
+            "name": "Death From Above",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Owens Lyons",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-death-from-above"
+        },
+        {
+            "name": "Shock Value",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Paladin Tristan",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-shock-value"
+        },
+        {
+            "name": "Who Dares Wins",
+            "type": "main",
+            "location": "The Citadel",
+            "acquired": "Paladin Tristan",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-who-dares-wins"
+        },
+        {
+            "name": "Holy Water",
+            "type": "side",
+            "location": "Jefferson Memorial",
+            "acquired": "Scribe Bigsley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-holy-water"
+        },
+        {
+            "name": "Protecting the Water Way",
+            "type": "side",
+            "location": "Jefferson Memorial",
+            "acquired": "Scribe Bigsley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-protecting-the-water-way"
+        },
+        {
+            "name": "The Amazing Aqua Cura!",
+            "type": "side",
+            "location": "Museum of History",
+            "acquired": "Scribe Bigsley",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-the-amazing-aqua-cura!"
+        },
+        {
+            "name": "The Sorrowful Suitor",
+            "type": "unmarked",
+            "location": "Presidential Metro",
+            "acquired": "Sorry, My Darling holotape",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-the-sorrowful-suitor"
+        },
+        {
+            "name": "Water Caravan Squabble",
+            "type": "unmarked",
+            "location": "Megaton",
+            "acquired": "Caravan Guards / Megaton Settlers",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "broken_steel",
+            "id": "quest-water-caravan-squabble"
+        },
+        {
+            "name": "Getting Ready for Prime Time",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Scribe Rothchild",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "broken_steel",
+            "id": "quest-getting-ready-for-prime-time"
+        },
+        {
+            "name": "Blood Brotherhood",
+            "type": "unmarked",
+            "location": "The Citadel",
+            "acquired": "Paladin Tristan",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "t",
+            "dlc": "broken_steel",
+            "id": "quest-blood-brotherhood"
+        },
+        {
+            "name": "The Local Flavor",
+            "type": "main",
+            "location": "Riverboat Landing",
+            "acquired": "Notification",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-the-local-flavor"
+        },
+        {
+            "name": "Walking with Spirits",
+            "type": "main",
+            "location": "Ark & Dove Cathedral",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-walking-with-spirits"
+        },
+        {
+            "name": "Hearing Voices",
+            "type": "main",
+            "location": "Ark & Dove Cathedral",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-hearing-voices"
+        },
+        {
+            "name": "Thought Control",
+            "type": "main",
+            "location": "Calvert Mansion",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-thought-control"
+        },
+        {
+            "name": "A Meeting of the Minds",
+            "type": "main",
+            "location": "Calvert Mansion",
+            "acquired": "Desmond",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-a-meeting-of-the-minds"
+        },
+        {
+            "name": "A Spoonful of Whiskey",
+            "type": "side",
+            "location": "Marguerite's Shack",
+            "acquired": "Marguerite",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-a-spoonful-of-whiskey"
+        },
+        {
+            "name": "An Antique Land",
+            "type": "side",
+            "location": "USS Ozymandias",
+            "acquired": "Notification",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-an-antique-land"
+        },
+        {
+            "name": "Plik's Safari",
+            "type": "side",
+            "location": "Coastal Grotto",
+            "acquired": "Plik",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-plik's-safari"
+        },
+        {
+            "name": "The Dark Heart of Blackhall",
+            "type": "side",
+            "location": "Blackhall Manor",
+            "acquired": "Obadiah Blackhall",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-the-dark-heart-of-blackhall"
+        },
+        {
+            "name": "The Velvet Curtain",
+            "type": "side",
+            "location": "Homestead Motel",
+            "acquired": "Terminal in Room 1D",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-the-velvet-curtain"
+        },
+        {
+            "name": "Tailing the Tomboy",
+            "type": "unmarked",
+            "location": "Riverboat Landing",
+            "acquired": "Catherine",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "point_lookout",
+            "id": "quest-tailing-the-tomboy"
+        },
+        {
+            "name": "Not of This World",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Notification",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta",
+            "id": "quest-not-of-this-world"
+        },
+        {
+            "name": "Among the Stars",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Sally",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta",
+            "id": "quest-among-the-stars"
+        },
+        {
+            "name": "This Galaxy Ain't Big Enough...",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Sally",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta",
+            "id": "quest-this-galaxy-ain't-big-enough..."
+        },
+        {
+            "name": "The Legend of Zeta",
+            "type": "side",
+            "location": "Mothership Zeta",
+            "acquired": "Self",
+            "available": "",
+            "wikiUrl": "",
+            "repeatable": "f",
+            "dlc": "zeta",
+            "id": "quest-the-legend-of-zeta"
+        }
+    ],
+    "items": [
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Advance Radiation Suit",
+            "wiki_url": "",
+            "id": "item-advance-radiation-suit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Armored Vault 101 Jumpsuit",
+            "wiki_url": "",
+            "id": "item-armored-vault-101-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Athlete of the Wastes Outfit",
+            "wiki_url": "",
+            "id": "item-athlete-of-the-wastes-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Bandana",
+            "wiki_url": "",
+            "id": "item-bandana"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Biker Goggles",
+            "wiki_url": "",
+            "id": "item-biker-goggles"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Blast Off Pajamas",
+            "wiki_url": "",
+            "id": "item-blast-off-pajamas"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Boogeyman's Hood",
+            "wiki_url": "",
+            "id": "item-boogeyman's-hood"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Brahmin-skin Outfit",
+            "wiki_url": "",
+            "id": "item-brahmin-skin-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Brotherhood Power Armor",
+            "wiki_url": "",
+            "id": "item-brotherhood-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Brotherhood Power Helmet",
+            "wiki_url": "",
+            "id": "item-brotherhood-power-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Brotherhood Scribe Robe",
+            "wiki_url": "",
+            "id": "item-brotherhood-scribe-robe"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Button's Wig",
+            "wiki_url": "",
+            "id": "item-button's-wig"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Chinese Commando Hat",
+            "wiki_url": "",
+            "id": "item-chinese-commando-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Chinese General Hat",
+            "wiki_url": "",
+            "id": "item-chinese-general-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Chinese Jumpsuit",
+            "wiki_url": "",
+            "id": "item-chinese-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Colonel Autumn's Uniform",
+            "wiki_url": "",
+            "id": "item-colonel-autumn's-uniform"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Combat Armor",
+            "wiki_url": "",
+            "id": "item-combat-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Combat Helmet",
+            "wiki_url": "",
+            "id": "item-combat-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Crow's Eyebot Helmet",
+            "wiki_url": "",
+            "id": "item-crow's-eyebot-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dad's Wasteland Outfit",
+            "wiki_url": "",
+            "id": "item-dad's-wasteland-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dirty Chinese Jumpsuit",
+            "wiki_url": "",
+            "id": "item-dirty-chinese-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dirty Pre-War Businesswear",
+            "wiki_url": "",
+            "id": "item-dirty-pre-war-businesswear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dirty Pre-War Casualwear",
+            "wiki_url": "",
+            "id": "item-dirty-pre-war-casualwear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dirty Pre-War Kid's Outfit",
+            "wiki_url": "",
+            "id": "item-dirty-pre-war-kid's-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dirty Pre-War Parkstroller Outfit",
+            "wiki_url": "",
+            "id": "item-dirty-pre-war-parkstroller-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dirty Pre-War Relaxedwear",
+            "wiki_url": "",
+            "id": "item-dirty-pre-war-relaxedwear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Dirty Pre-War Spring Outfit",
+            "wiki_url": "",
+            "id": "item-dirty-pre-war-spring-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Doctor Li's Outfit",
+            "wiki_url": "",
+            "id": "item-doctor-li's-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Elder Lyon's Robe",
+            "wiki_url": "",
+            "id": "item-elder-lyon's-robe"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Enclave Officer Hat",
+            "wiki_url": "",
+            "id": "item-enclave-officer-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Enclave Officer Uniform",
+            "wiki_url": "",
+            "id": "item-enclave-officer-uniform"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Enclave Power Armor",
+            "wiki_url": "",
+            "id": "item-enclave-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Enclave Power Helmet",
+            "wiki_url": "",
+            "id": "item-enclave-power-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Enclave Scientist Outfit",
+            "wiki_url": "",
+            "id": "item-enclave-scientist-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Environment Suit",
+            "wiki_url": "",
+            "id": "item-environment-suit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Eulogy Jones' Hat",
+            "wiki_url": "",
+            "id": "item-eulogy-jones'-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Eulogy Jones' Suit",
+            "wiki_url": "",
+            "id": "item-eulogy-jones'-suit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Eyebot Helmet",
+            "wiki_url": "",
+            "id": "item-eyebot-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Eyeglasses",
+            "wiki_url": "",
+            "id": "item-eyeglasses"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Ghoul Mask",
+            "wiki_url": "",
+            "id": "item-ghoul-mask"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Grimy Pre-War Businesswear",
+            "wiki_url": "",
+            "id": "item-grimy-pre-war-businesswear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Head Wrap (Dark Gray)",
+            "wiki_url": "",
+            "id": "item-head-wrap-(dark-gray)"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Head Wrap (Gray)",
+            "wiki_url": "",
+            "id": "item-head-wrap-(gray)"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Head Wrap (Red/Yellow Plaid)",
+            "wiki_url": "",
+            "id": "item-head-wrap-(red/yellow-plaid)"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Head Wrap (White)",
+            "wiki_url": "",
+            "id": "item-head-wrap-(white)"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Hockey Mask",
+            "wiki_url": "",
+            "id": "item-hockey-mask"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Junior Officer Outfit",
+            "wiki_url": "",
+            "id": "item-junior-officer-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Kid's Baseball Cap",
+            "wiki_url": "",
+            "id": "item-kid's-baseball-cap"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Kid's Cave Rat Outfit",
+            "wiki_url": "",
+            "id": "item-kid's-cave-rat-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Lab Coat",
+            "wiki_url": "",
+            "id": "item-lab-coat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Lab Technician Outfit",
+            "wiki_url": "",
+            "id": "item-lab-technician-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Leather Armor",
+            "wiki_url": "",
+            "id": "item-leather-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Ledoux's Hockey Mask",
+            "wiki_url": "",
+            "id": "item-ledoux's-hockey-mask"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Lesko's Lab Coat",
+            "wiki_url": "",
+            "id": "item-lesko's-lab-coat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Lincoln's Hat",
+            "wiki_url": "",
+            "id": "item-lincoln's-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Linden's Outcast Power Armor",
+            "wiki_url": "",
+            "id": "item-linden's-outcast-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Lucky Shades",
+            "wiki_url": "",
+            "id": "item-lucky-shades"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Lyon's Pride Power Armor",
+            "wiki_url": "",
+            "id": "item-lyon's-pride-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Maple's Garb",
+            "wiki_url": "",
+            "id": "item-maple's-garb"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Merc Adventurer Outfit",
+            "wiki_url": "",
+            "id": "item-merc-adventurer-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Merc Charmer Outfit",
+            "wiki_url": "",
+            "id": "item-merc-charmer-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Merc Cruiser Outfit",
+            "wiki_url": "",
+            "id": "item-merc-cruiser-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Merc Grunt Outfit",
+            "wiki_url": "",
+            "id": "item-merc-grunt-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Merc Troublemaker Outfit",
+            "wiki_url": "",
+            "id": "item-merc-troublemaker-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Merc Veteran Outfit",
+            "wiki_url": "",
+            "id": "item-merc-veteran-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Metal Armor",
+            "wiki_url": "",
+            "id": "item-metal-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Metal Helmet",
+            "wiki_url": "",
+            "id": "item-metal-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Modified Utility Jumpsuit",
+            "wiki_url": "",
+            "id": "item-modified-utility-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Motorcycle Helmet",
+            "wiki_url": "",
+            "id": "item-motorcycle-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Naughty Nightwear",
+            "wiki_url": "",
+            "id": "item-naughty-nightwear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Oasis Druid Hood",
+            "wiki_url": "",
+            "id": "item-oasis-druid-hood"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Oasis Robe",
+            "wiki_url": "",
+            "id": "item-oasis-robe"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Oasis Villager Robe",
+            "wiki_url": "",
+            "id": "item-oasis-villager-robe"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Outcast Power Armor",
+            "wiki_url": "",
+            "id": "item-outcast-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Outcast Power Helmet",
+            "wiki_url": "",
+            "id": "item-outcast-power-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Party Hat",
+            "wiki_url": "",
+            "id": "item-party-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Police Hat",
+            "wiki_url": "",
+            "id": "item-police-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Power Armor",
+            "wiki_url": "",
+            "id": "item-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Power Helmet",
+            "wiki_url": "",
+            "id": "item-power-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Baseball Cap",
+            "wiki_url": "",
+            "id": "item-pre-war-baseball-cap"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Bonnet",
+            "wiki_url": "",
+            "id": "item-pre-war-bonnet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Casualwear",
+            "wiki_url": "",
+            "id": "item-pre-war-casualwear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Hat",
+            "wiki_url": "",
+            "id": "item-pre-war-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Kid's Outfit",
+            "wiki_url": "",
+            "id": "item-pre-war-kid's-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Parkstroller Outfit",
+            "wiki_url": "",
+            "id": "item-pre-war-parkstroller-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Relaxedwear",
+            "wiki_url": "",
+            "id": "item-pre-war-relaxedwear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Pre-War Spring Outfit",
+            "wiki_url": "",
+            "id": "item-pre-war-spring-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Prototype Medic Power Armor",
+            "wiki_url": "",
+            "id": "item-prototype-medic-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Radiation Suit",
+            "wiki_url": "",
+            "id": "item-radiation-suit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Ragamuffin Outfit",
+            "wiki_url": "",
+            "id": "item-ragamuffin-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Arclight Helmet",
+            "wiki_url": "",
+            "id": "item-raider-arclight-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Badlands Armor",
+            "wiki_url": "",
+            "id": "item-raider-badlands-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Blastmaster Armor",
+            "wiki_url": "",
+            "id": "item-raider-blastmaster-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Blastmaster Helmet",
+            "wiki_url": "",
+            "id": "item-raider-blastmaster-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Painspike Armor",
+            "wiki_url": "",
+            "id": "item-raider-painspike-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Psycho-tic Helmet",
+            "wiki_url": "",
+            "id": "item-raider-psycho-tic-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Sadist Armor",
+            "wiki_url": "",
+            "id": "item-raider-sadist-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Raider Wastehound Helmet",
+            "wiki_url": "",
+            "id": "item-raider-wastehound-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Ranger Battle Armor",
+            "wiki_url": "",
+            "id": "item-ranger-battle-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Ranger Battle Helmet",
+            "wiki_url": "",
+            "id": "item-ranger-battle-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Reading Glasses",
+            "wiki_url": "",
+            "id": "item-reading-glasses"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Recon Armor",
+            "wiki_url": "",
+            "id": "item-recon-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Recon Armor Helmet",
+            "wiki_url": "",
+            "id": "item-recon-armor-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Red Racer Jumpsuit",
+            "wiki_url": "",
+            "id": "item-red-racer-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Red's Bandana",
+            "wiki_url": "",
+            "id": "item-red's-bandana"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Red's Jumpsuit",
+            "wiki_url": "",
+            "id": "item-red's-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Regulator Duster",
+            "wiki_url": "",
+            "id": "item-regulator-duster"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Rivet City Security Helmet",
+            "wiki_url": "",
+            "id": "item-rivet-city-security-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Rivet City Security Uniform",
+            "wiki_url": "",
+            "id": "item-rivet-city-security-uniform"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "RobCo Jumpsuit",
+            "wiki_url": "",
+            "id": "item-robco-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Roving Trader Hat",
+            "wiki_url": "",
+            "id": "item-roving-trader-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Roving Trader Outfit",
+            "wiki_url": "",
+            "id": "item-roving-trader-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Scientist Outfit",
+            "wiki_url": "",
+            "id": "item-scientist-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Sexy Sleepwear",
+            "wiki_url": "",
+            "id": "item-sexy-sleepwear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Shady Hat",
+            "wiki_url": "",
+            "id": "item-shady-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Sheriff's Duster",
+            "wiki_url": "",
+            "id": "item-sheriff's-duster"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Sheriff's Hat (Curled Brim)",
+            "wiki_url": "",
+            "id": "item-sheriff's-hat-(curled-brim)"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Stormchaser Hat",
+            "wiki_url": "",
+            "id": "item-stormchaser-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Sunglasses",
+            "wiki_url": "",
+            "id": "item-sunglasses"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "T-51B Power Armor",
+            "wiki_url": "",
+            "id": "item-t-51b-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "T-51B Power Helmet",
+            "wiki_url": "",
+            "id": "item-t-51b-power-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Takoma Park Little Leaguer Cap",
+            "wiki_url": "",
+            "id": "item-takoma-park-little-leaguer-cap"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Talon Combat Armor",
+            "wiki_url": "",
+            "id": "item-talon-combat-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Talon Combat Helmet",
+            "wiki_url": "",
+            "id": "item-talon-combat-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Tenpenny Security Uniform",
+            "wiki_url": "",
+            "id": "item-tenpenny-security-uniform"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Tenpenny's Suit",
+            "wiki_url": "",
+            "id": "item-tenpenny's-suit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Tesla Armor",
+            "wiki_url": "",
+            "id": "item-tesla-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Tesla Helmet",
+            "wiki_url": "",
+            "id": "item-tesla-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "The AntAgonizer's Costume",
+            "wiki_url": "",
+            "id": "item-the-antagonizer's-costume"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "The AntAgonizer's Helmet",
+            "wiki_url": "",
+            "id": "item-the-antagonizer's-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "The Mechanist's Costume",
+            "wiki_url": "",
+            "id": "item-the-mechanist's-costume"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "The Mechanist's Helmet",
+            "wiki_url": "",
+            "id": "item-the-mechanist's-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "The Surgeon's Lab Coat",
+            "wiki_url": "",
+            "id": "item-the-surgeon's-lab-coat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Three Dog's Glasses",
+            "wiki_url": "",
+            "id": "item-three-dog's-glasses"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Three Dog's Head Wrap",
+            "wiki_url": "",
+            "id": "item-three-dog's-head-wrap"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Tinted Reading Glasses",
+            "wiki_url": "",
+            "id": "item-tinted-reading-glasses"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Torcher's Mask",
+            "wiki_url": "",
+            "id": "item-torcher's-mask"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Tortoiseshell Glasses",
+            "wiki_url": "",
+            "id": "item-tortoiseshell-glasses"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Tunnel Snake Outfit",
+            "wiki_url": "",
+            "id": "item-tunnel-snake-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vance's Longcoat Outfit",
+            "wiki_url": "",
+            "id": "item-vance's-longcoat-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 101 Jumpsuit",
+            "wiki_url": "",
+            "id": "item-vault-101-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 101 Security Armor",
+            "wiki_url": "",
+            "id": "item-vault-101-security-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 101 Security Helmet",
+            "wiki_url": "",
+            "id": "item-vault-101-security-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 101 Utility Jumpsuit",
+            "wiki_url": "",
+            "id": "item-vault-101-utility-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 106 Jumpsuit",
+            "wiki_url": "",
+            "id": "item-vault-106-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 108 Jumpsuit",
+            "wiki_url": "",
+            "id": "item-vault-108-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 112 Jumpsuit",
+            "wiki_url": "",
+            "id": "item-vault-112-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault 77 Jumpsuit",
+            "wiki_url": "",
+            "id": "item-vault-77-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Vault Lab Uniform",
+            "wiki_url": "",
+            "id": "item-vault-lab-uniform"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Wanderer's Leather Armor",
+            "wiki_url": "",
+            "id": "item-wanderer's-leather-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Wasteland Doctor Fatigues",
+            "wiki_url": "",
+            "id": "item-wasteland-doctor-fatigues"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Wasteland Legend Outfit",
+            "wiki_url": "",
+            "id": "item-wasteland-legend-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Wasteland Scout Uniform",
+            "wiki_url": "",
+            "id": "item-wasteland-scout-uniform"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Wasteland Settler Outfit",
+            "wiki_url": "",
+            "id": "item-wasteland-settler-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Wasteland Surgeon Outfit",
+            "wiki_url": "",
+            "id": "item-wasteland-surgeon-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "main",
+            "name": "Wasteland Wanderer Outfit",
+            "wiki_url": "",
+            "id": "item-wasteland-wanderer-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "Composite Recon Helmet",
+            "wiki_url": "",
+            "id": "item-composite-recon-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "All-Nighter Nightwear",
+            "wiki_url": "",
+            "id": "item-all-nighter-nightwear"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "Enclave Hellfire Armor",
+            "wiki_url": "",
+            "id": "item-enclave-hellfire-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "Enclave Hellfire Helmet",
+            "wiki_url": "",
+            "id": "item-enclave-hellfire-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "Lag-Bolt's Combat Armor",
+            "wiki_url": "",
+            "id": "item-lag-bolt's-combat-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "Lag-Bolt's Shades",
+            "wiki_url": "",
+            "id": "item-lag-bolt's-shades"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "Poplar's Hood",
+            "wiki_url": "",
+            "id": "item-poplar's-hood"
+        },
+        {
+            "type": "clothing",
+            "game_section": "broken_steel",
+            "name": "Wig ",
+            "wiki_url": "",
+            "id": "item-wig-"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Army Mechanic Jumpsuit",
+            "wiki_url": "",
+            "id": "item-army-mechanic-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Chinese Stealth Armor",
+            "wiki_url": "",
+            "id": "item-chinese-stealth-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "General Jingwei's Uniform",
+            "wiki_url": "",
+            "id": "item-general-jingwei's-uniform"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Neural Interface Suit",
+            "wiki_url": "",
+            "id": "item-neural-interface-suit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Outcast Scribe Robe",
+            "wiki_url": "",
+            "id": "item-outcast-scribe-robe"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Winterized Chinese Commando Hat",
+            "wiki_url": "",
+            "id": "item-winterized-chinese-commando-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Winterized Chinese Jumpsuit",
+            "wiki_url": "",
+            "id": "item-winterized-chinese-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Winterized Combat Armor",
+            "wiki_url": "",
+            "id": "item-winterized-combat-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Winterized Combat Helmet",
+            "wiki_url": "",
+            "id": "item-winterized-combat-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Winterized T-51B Power Armor",
+            "wiki_url": "",
+            "id": "item-winterized-t-51b-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "operation_anchorage",
+            "name": "Winterized T-51B Power Helmet",
+            "wiki_url": "",
+            "id": "item-winterized-t-51b-power-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Confederate Hat",
+            "wiki_url": "",
+            "id": "item-confederate-hat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Cryptochromatic Spectacles",
+            "wiki_url": "",
+            "id": "item-cryptochromatic-spectacles"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Desmond's Eyeglasses",
+            "wiki_url": "",
+            "id": "item-desmond's-eyeglasses"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Grifter's Fit",
+            "wiki_url": "",
+            "id": "item-grifter's-fit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Handyman Jumpsuit",
+            "wiki_url": "",
+            "id": "item-handyman-jumpsuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Pint-Sized Slasher Mask",
+            "wiki_url": "",
+            "id": "item-pint-sized-slasher-mask"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Tribal Garb",
+            "wiki_url": "",
+            "id": "item-tribal-garb"
+        },
+        {
+            "type": "clothing",
+            "game_section": "point_lookout",
+            "name": "Workman's Coveralls",
+            "wiki_url": "",
+            "id": "item-workman's-coveralls"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Ashur's Power Armor",
+            "wiki_url": "",
+            "id": "item-ashur's-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Bombshell Armor",
+            "wiki_url": "",
+            "id": "item-bombshell-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Filtration Helmet",
+            "wiki_url": "",
+            "id": "item-filtration-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Gamma Shield Armor",
+            "wiki_url": "",
+            "id": "item-gamma-shield-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Hat of the People",
+            "wiki_url": "",
+            "id": "item-hat-of-the-people"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Laborer Outfit",
+            "wiki_url": "",
+            "id": "item-laborer-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Leather Rebel",
+            "wiki_url": "",
+            "id": "item-leather-rebel"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Metal Master Armor",
+            "wiki_url": "",
+            "id": "item-metal-master-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Raider Commando Armor",
+            "wiki_url": "",
+            "id": "item-raider-commando-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Raider Iconoclast Armor",
+            "wiki_url": "",
+            "id": "item-raider-iconoclast-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Raider Ordinance Armor",
+            "wiki_url": "",
+            "id": "item-raider-ordinance-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Raider Paingiver Armor",
+            "wiki_url": "",
+            "id": "item-raider-paingiver-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Raider Throwdown Armor",
+            "wiki_url": "",
+            "id": "item-raider-throwdown-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Supervisor Helmet",
+            "wiki_url": "",
+            "id": "item-supervisor-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Tattered Slave Outfit",
+            "wiki_url": "",
+            "id": "item-tattered-slave-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Tribal Power Armor",
+            "wiki_url": "",
+            "id": "item-tribal-power-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Welder's Mask",
+            "wiki_url": "",
+            "id": "item-welder's-mask"
+        },
+        {
+            "type": "clothing",
+            "game_section": "the_pitt",
+            "name": "Worn Slave Outfit ",
+            "wiki_url": "",
+            "id": "item-worn-slave-outfit-"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "General Chase's Overcoat",
+            "wiki_url": "",
+            "id": "item-general-chase's-overcoat"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "Paulson's Outfit",
+            "wiki_url": "",
+            "id": "item-paulson's-outfit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "Samurai Armor",
+            "wiki_url": "",
+            "id": "item-samurai-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "Samurai Helmet",
+            "wiki_url": "",
+            "id": "item-samurai-helmet"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "Sheriff's Hat (Flat Brim)",
+            "wiki_url": "",
+            "id": "item-sheriff's-hat-(flat-brim)"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "Spacesuit",
+            "wiki_url": "",
+            "id": "item-spacesuit"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "Winterized Medic Armor",
+            "wiki_url": "",
+            "id": "item-winterized-medic-armor"
+        },
+        {
+            "type": "clothing",
+            "game_section": "mothership_zeta",
+            "name": "Winterized Medic Helmet",
+            "wiki_url": "",
+            "id": "item-winterized-medic-helmet"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": ".32 Pistol",
+            "wiki_url": "",
+            "id": "item-.32-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "10mm Pistol",
+            "wiki_url": "",
+            "id": "item-10mm-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "10mm SMG",
+            "wiki_url": "",
+            "id": "item-10mm-smg"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "A3-21 Plasma Rifle",
+            "wiki_url": "",
+            "id": "item-a3-21-plasma-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Alien Blaster",
+            "wiki_url": "",
+            "id": "item-alien-blaster"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Ant's Sting",
+            "wiki_url": "",
+            "id": "item-ant's-sting"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Assault Rifle",
+            "wiki_url": "",
+            "id": "item-assault-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Baseball Batt",
+            "wiki_url": "",
+            "id": "item-baseball-batt"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "BB Gun",
+            "wiki_url": "",
+            "id": "item-bb-gun"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Blackhawk",
+            "wiki_url": "",
+            "id": "item-blackhawk"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Board of Education",
+            "wiki_url": "",
+            "id": "item-board-of-education"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Bottlecap Mine",
+            "wiki_url": "",
+            "id": "item-bottlecap-mine"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Brass Knuckles",
+            "wiki_url": "",
+            "id": "item-brass-knuckles"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Burnmaster",
+            "wiki_url": "",
+            "id": "item-burnmaster"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Butch's Toothpick",
+            "wiki_url": "",
+            "id": "item-butch's-toothpick"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Chinese Assault Rifle",
+            "wiki_url": "",
+            "id": "item-chinese-assault-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Chinese Officer's Sword",
+            "wiki_url": "",
+            "id": "item-chinese-officer's-sword"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Chinese Pistol",
+            "wiki_url": "",
+            "id": "item-chinese-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Colonel Autumn's 10mm Pistol",
+            "wiki_url": "",
+            "id": "item-colonel-autumn's-10mm-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Colonel Autumn's Laser Pistol",
+            "wiki_url": "",
+            "id": "item-colonel-autumn's-laser-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Combat Knife",
+            "wiki_url": "",
+            "id": "item-combat-knife"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Combat Shotgun",
+            "wiki_url": "",
+            "id": "item-combat-shotgun"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Dart Gun",
+            "wiki_url": "",
+            "id": "item-dart-gun"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Deathclaw Gauntlet",
+            "wiki_url": "",
+            "id": "item-deathclaw-gauntlet"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Eugene",
+            "wiki_url": "",
+            "id": "item-eugene"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Experimental MIRV",
+            "wiki_url": "",
+            "id": "item-experimental-mirv"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Fat Man",
+            "wiki_url": "",
+            "id": "item-fat-man"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Fawkes' Super Sledge",
+            "wiki_url": "",
+            "id": "item-fawkes'-super-sledge"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Firelance",
+            "wiki_url": "",
+            "id": "item-firelance"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Fisto!",
+            "wiki_url": "",
+            "id": "item-fisto!"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Flamer",
+            "wiki_url": "",
+            "id": "item-flamer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Frag Grenade",
+            "wiki_url": "",
+            "id": "item-frag-grenade"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Frag Mine",
+            "wiki_url": "",
+            "id": "item-frag-mine"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Gatling Laser",
+            "wiki_url": "",
+            "id": "item-gatling-laser"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Highwayman's Friend",
+            "wiki_url": "",
+            "id": "item-highwayman's-friend"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Hunting Rifle",
+            "wiki_url": "",
+            "id": "item-hunting-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Jack",
+            "wiki_url": "",
+            "id": "item-jack"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Knife",
+            "wiki_url": "",
+            "id": "item-knife"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Laser Pistol",
+            "wiki_url": "",
+            "id": "item-laser-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Laser Rifle",
+            "wiki_url": "",
+            "id": "item-laser-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Lead Pipe",
+            "wiki_url": "",
+            "id": "item-lead-pipe"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Lincoln's Repeater",
+            "wiki_url": "",
+            "id": "item-lincoln's-repeater"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Mesmetron",
+            "wiki_url": "",
+            "id": "item-mesmetron"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Minigun",
+            "wiki_url": "",
+            "id": "item-minigun"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Miss Launcher",
+            "wiki_url": "",
+            "id": "item-miss-launcher"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Missile Launcher",
+            "wiki_url": "",
+            "id": "item-missile-launcher"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Nail Board",
+            "wiki_url": "",
+            "id": "item-nail-board"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Nuka-Grenade",
+            "wiki_url": "",
+            "id": "item-nuka-grenade"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Occam's Razor",
+            "wiki_url": "",
+            "id": "item-occam's-razor"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Ol' Painless",
+            "wiki_url": "",
+            "id": "item-ol'-painless"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Plasma Grenade",
+            "wiki_url": "",
+            "id": "item-plasma-grenade"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Plasma Mine",
+            "wiki_url": "",
+            "id": "item-plasma-mine"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Plasma Pistol",
+            "wiki_url": "",
+            "id": "item-plasma-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Plasma Rifle",
+            "wiki_url": "",
+            "id": "item-plasma-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Plunkett's Valid Points",
+            "wiki_url": "",
+            "id": "item-plunkett's-valid-points"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Police Baton",
+            "wiki_url": "",
+            "id": "item-police-baton"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Pool Cue",
+            "wiki_url": "",
+            "id": "item-pool-cue"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Power Fist",
+            "wiki_url": "",
+            "id": "item-power-fist"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Pulse Grenade",
+            "wiki_url": "",
+            "id": "item-pulse-grenade"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Pulse Mine",
+            "wiki_url": "",
+            "id": "item-pulse-mine"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Railway Rifle",
+            "wiki_url": "",
+            "id": "item-railway-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Repellent Stick",
+            "wiki_url": "",
+            "id": "item-repellent-stick"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Reservist's Rifle",
+            "wiki_url": "",
+            "id": "item-reservist's-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Ripper",
+            "wiki_url": "",
+            "id": "item-ripper"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Rock-It Launcher",
+            "wiki_url": "",
+            "id": "item-rock-it-launcher"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Rolling Pin",
+            "wiki_url": "",
+            "id": "item-rolling-pin"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Sawed-Off Shotgun",
+            "wiki_url": "",
+            "id": "item-sawed-off-shotgun"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Scoped .44 Magnum",
+            "wiki_url": "",
+            "id": "item-scoped-.44-magnum"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Shishkebab",
+            "wiki_url": "",
+            "id": "item-shishkebab"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Silenced 10mm Pistol",
+            "wiki_url": "",
+            "id": "item-silenced-10mm-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Sledgehammer",
+            "wiki_url": "",
+            "id": "item-sledgehammer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Smuggler's End",
+            "wiki_url": "",
+            "id": "item-smuggler's-end"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Sniper Rifle",
+            "wiki_url": "",
+            "id": "item-sniper-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Spiked Knuckles",
+            "wiki_url": "",
+            "id": "item-spiked-knuckles"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Stabhappy",
+            "wiki_url": "",
+            "id": "item-stabhappy"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Super Sledge",
+            "wiki_url": "",
+            "id": "item-super-sledge"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Switchblade",
+            "wiki_url": "",
+            "id": "item-switchblade"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Sydney's 10mm “Ultra” SMG",
+            "wiki_url": "",
+            "id": "item-sydney's-10mm-“ultra”-smg"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "The Break",
+            "wiki_url": "",
+            "id": "item-the-break"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "The Kneecapper",
+            "wiki_url": "",
+            "id": "item-the-kneecapper"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "The Shocker",
+            "wiki_url": "",
+            "id": "item-the-shocker"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "The Tenderizer",
+            "wiki_url": "",
+            "id": "item-the-tenderizer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "The Terrible Shotgun",
+            "wiki_url": "",
+            "id": "item-the-terrible-shotgun"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Tire Iron",
+            "wiki_url": "",
+            "id": "item-tire-iron"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Vampire's Edge",
+            "wiki_url": "",
+            "id": "item-vampire's-edge"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Vengeance",
+            "wiki_url": "",
+            "id": "item-vengeance"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Victory Rifle",
+            "wiki_url": "",
+            "id": "item-victory-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Wazer Wifle",
+            "wiki_url": "",
+            "id": "item-wazer-wifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Xuanlong Assault Rifle",
+            "wiki_url": "",
+            "id": "item-xuanlong-assault-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "main",
+            "name": "Zhu-Rong v418 Chinese Pistol",
+            "wiki_url": " ",
+            "id": "item-zhu-rong-v418-chinese-pistol"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Callahan's Magnum",
+            "wiki_url": "",
+            "id": "item-callahan's-magnum"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Heavy Incinerator",
+            "wiki_url": "",
+            "id": "item-heavy-incinerator"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Precision Gatling Laser",
+            "wiki_url": "",
+            "id": "item-precision-gatling-laser"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Rapid-Torch Flamer",
+            "wiki_url": "",
+            "id": "item-rapid-torch-flamer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Slo-Burn Flamer",
+            "wiki_url": "",
+            "id": "item-slo-burn-flamer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Tesla Canon",
+            "wiki_url": "",
+            "id": "item-tesla-canon"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Tesla Canon (Beta)",
+            "wiki_url": "",
+            "id": "item-tesla-canon-(beta)"
+        },
+        {
+            "type": "weapons",
+            "game_section": "broken_steel",
+            "name": "Tri-Beam Laser Rifle",
+            "wiki_url": "",
+            "id": "item-tri-beam-laser-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "operation_anchorage",
+            "name": "Gauss Rifle",
+            "wiki_url": "",
+            "id": "item-gauss-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "operation_anchorage",
+            "name": "Jingwei's Shocksword",
+            "wiki_url": "",
+            "id": "item-jingwei's-shocksword"
+        },
+        {
+            "type": "weapons",
+            "game_section": "operation_anchorage",
+            "name": "Smoke Grenade",
+            "wiki_url": "",
+            "id": "item-smoke-grenade"
+        },
+        {
+            "type": "weapons",
+            "game_section": "operation_anchorage",
+            "name": "Trench Knife",
+            "wiki_url": "",
+            "id": "item-trench-knife"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Axe",
+            "wiki_url": "",
+            "id": "item-axe"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Backwater Rifle",
+            "wiki_url": "",
+            "id": "item-backwater-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Bio-Gas Canister",
+            "wiki_url": "",
+            "id": "item-bio-gas-canister"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Double Barrel Shotgun",
+            "wiki_url": "",
+            "id": "item-double-barrel-shotgun"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Fertilizer Shovel",
+            "wiki_url": "",
+            "id": "item-fertilizer-shovel"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Lever-Action Rifle",
+            "wiki_url": "",
+            "id": "item-lever-action-rifle"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Microwave Emitter",
+            "wiki_url": "",
+            "id": "item-microwave-emitter"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Ritual Knife",
+            "wiki_url": "",
+            "id": "item-ritual-knife"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Shovel",
+            "wiki_url": "",
+            "id": "item-shovel"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "The Dismemberer",
+            "wiki_url": "",
+            "id": "item-the-dismemberer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "point_lookout",
+            "name": "Toy Knife",
+            "wiki_url": " ",
+            "id": "item-toy-knife"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Auto Axe",
+            "wiki_url": "",
+            "id": "item-auto-axe"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Infiltrator",
+            "wiki_url": "",
+            "id": "item-infiltrator"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Man Opener",
+            "wiki_url": "",
+            "id": "item-man-opener"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Metal Blaster",
+            "wiki_url": "",
+            "id": "item-metal-blaster"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Perforator",
+            "wiki_url": "",
+            "id": "item-perforator"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Steel Knuckles",
+            "wiki_url": "",
+            "id": "item-steel-knuckles"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Steel Saw",
+            "wiki_url": "",
+            "id": "item-steel-saw"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "The Mauler",
+            "wiki_url": "",
+            "id": "item-the-mauler"
+        },
+        {
+            "type": "weapons",
+            "game_section": "the_pitt",
+            "name": "Wild Bill's Sidearm",
+            "wiki_url": " ",
+            "id": "item-wild-bill's-sidearm"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Alien Atomizer",
+            "wiki_url": "",
+            "id": "item-alien-atomizer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Alien Disintegrator",
+            "wiki_url": "",
+            "id": "item-alien-disintegrator"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Atomic Pulverizer",
+            "wiki_url": "",
+            "id": "item-atomic-pulverizer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Captain's Sidearm",
+            "wiki_url": "",
+            "id": "item-captain's-sidearm"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Cryo Grenade",
+            "wiki_url": "",
+            "id": "item-cryo-grenade"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Cryo Mine",
+            "wiki_url": "",
+            "id": "item-cryo-mine"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Destabilizer",
+            "wiki_url": "",
+            "id": "item-destabilizer"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Drone Cannon",
+            "wiki_url": "",
+            "id": "item-drone-cannon"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Drone Cannon EX-B",
+            "wiki_url": "",
+            "id": "item-drone-cannon-ex-b"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Electro-Supressor",
+            "wiki_url": "",
+            "id": "item-electro-supressor"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "MPLX Novasurge",
+            "wiki_url": "",
+            "id": "item-mplx-novasurge"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Paulson's Revolver",
+            "wiki_url": "",
+            "id": "item-paulson's-revolver"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Samurai's Sword",
+            "wiki_url": "",
+            "id": "item-samurai's-sword"
+        },
+        {
+            "type": "weapons",
+            "game_section": "mothership_zeta",
+            "name": "Shock Baton",
+            "wiki_url": "",
+            "id": "item-shock-baton"
+        }
+    ],
+    "collectables": [
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Strength",
+            "location": "Megaton",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-strength"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Perception",
+            "location": "Republic of Dave",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-perception"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Endurance",
+            "location": "Deathclaw Sanctuary",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-endurance"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Charisma",
+            "location": "Vault 108",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-charisma"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Intelligence",
+            "location": "Rivet City",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-intelligence"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Agility",
+            "location": "Greener Pastures Disposal Site",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-agility"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Luck",
+            "location": "Arlington Cemetery North",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-luck"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Barter",
+            "location": "Evergreen Mills",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-barter"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Big Guns",
+            "location": "Fort Constantine",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-big-guns"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Energy Weapons",
+            "location": "Raven Rock",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-energy-weapons"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Explosives",
+            "location": "WKML Broadcast Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-explosives"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Lockpick",
+            "location": "Bethesda Ruins",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-lockpick"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Medicine",
+            "location": "Vault 101",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-medicine"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Melee Weapons",
+            "location": "Dunwich Building",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-melee-weapons"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Repair",
+            "location": "Arefu",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-repair"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Science",
+            "location": "Vault 106",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-science"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Small Guns",
+            "location": "National Guard Depot",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-small-guns"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Sneak",
+            "location": "Yao Gaai Tunnels",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-sneak"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Speech",
+            "location": "Paradise Falls",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-speech"
+        },
+        {
+            "type": "bobblehead",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "Unarmed",
+            "location": "Smith Casey's Garage",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-bobblehead-unarmed"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Tales of a Junktown Jerky Vendor",
+            "game_section": "",
+            "name": "Barter",
+            "location": "",
+            "amount": "23",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-barter"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "U.S. Army: 30 Handy Flamethrower Recipes",
+            "game_section": "",
+            "name": "Big Guns",
+            "location": "",
+            "amount": "25",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-big-guns"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Nikola Tesla and You",
+            "game_section": "",
+            "name": "Energy Weapons",
+            "location": "",
+            "amount": "25",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-energy-weapons"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Duck and Cover!",
+            "game_section": "",
+            "name": "Explosives",
+            "location": "",
+            "amount": "25",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-explosives"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Tumblers Today",
+            "game_section": "",
+            "name": "Lockpick",
+            "location": "",
+            "amount": "25",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-lockpick"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "D.C. Journal of Internal Medicine",
+            "game_section": "",
+            "name": "Medicine",
+            "location": "",
+            "amount": "25",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-medicine"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Grognak the Barbarian",
+            "game_section": "",
+            "name": "Melee",
+            "location": "",
+            "amount": "25",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-melee"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Dean's Electronics",
+            "game_section": "",
+            "name": "Repair",
+            "location": "",
+            "amount": "24",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-repair"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Guns and Bullets",
+            "game_section": "",
+            "name": "Small Guns",
+            "location": "",
+            "amount": "26",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-small-guns"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Chinese Army: Special Ops Training",
+            "game_section": "",
+            "name": "Sneak",
+            "location": "",
+            "amount": "26",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-sneak"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Lying, Congressional Style",
+            "game_section": "",
+            "name": "Speech",
+            "location": "",
+            "amount": "23",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-speech"
+        },
+        {
+            "type": "skill_book",
+            "secondary_type": "Pugilism Illustrated",
+            "game_section": "",
+            "name": "Unarmed",
+            "location": "",
+            "amount": "25",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-skill_book-unarmed"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "Lincoln's Repeater",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-lincoln's-repeater"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "Lincoln's Hat",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-lincoln's-hat"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "Lincoln's Voice",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-lincoln's-voice"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "'Action Abe' Action Figure",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-'action-abe'-action-figure"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "Civil War Draft Poster",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-civil-war-draft-poster"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "Lincoln's Diary",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-lincoln's-diary"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "Abe Lincoln Coin Collection",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-abe-lincoln-coin-collection"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Museum of History Items",
+            "game_section": "main",
+            "name": "John Wilkes Booth Wanted Poster",
+            "location": "",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-john-wilkes-booth-wanted-poster"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Sheet Music Books",
+            "game_section": "main",
+            "name": "1",
+            "location": "Vault 92",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-1"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Sheet Music Books",
+            "game_section": "main",
+            "name": "2",
+            "location": "Arlington Library",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-2"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Sheet Music Books",
+            "game_section": "main",
+            "name": "3",
+            "location": "The National Archives",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-3"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Sheet Music Books",
+            "game_section": "main",
+            "name": "4",
+            "location": "Springvale School",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-4"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Sheet Music Books",
+            "game_section": "main",
+            "name": "5",
+            "location": "The Statesman Hotel",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-5"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Sheet Music Books",
+            "game_section": "main",
+            "name": "6",
+            "location": "Roosevelt Academy",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-6"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Buttercup Toy",
+            "game_section": "mothership_zeta",
+            "name": "1",
+            "location": "Engineering Core",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-1"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Buttercup Toy",
+            "game_section": "mothership_zeta",
+            "name": "2",
+            "location": "Engineering Core",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-2"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Buttercup Toy",
+            "game_section": "mothership_zeta",
+            "name": "3",
+            "location": "Weapons Lab",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-3"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Buttercup Toy",
+            "game_section": "mothership_zeta",
+            "name": "4",
+            "location": "Research Lab",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-4"
+        },
+        {
+            "type": "rare_items",
+            "secondary_type": "Experimental Rho ID",
+            "game_section": "",
+            "name": "Experimental Rho ID",
+            "location": "Camp RHO",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-rare_items-experimental-rho-id"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #01",
+            "location": "Holding Cells",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#01"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #02",
+            "location": "Cryo Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#02"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #03",
+            "location": "Holding Cells",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#03"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #04",
+            "location": "Cryo Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#04"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #05",
+            "location": "Engineering Core",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#05"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #06",
+            "location": "Engineering Core",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#06"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #07",
+            "location": "Engineering Core",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#07"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #08",
+            "location": "Engineering Core",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#08"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #09",
+            "location": "Experimentation Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#09"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #10",
+            "location": "Experimentation Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#10"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #11",
+            "location": "Holding Cells",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#11"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #12",
+            "location": "Holding Cells",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#12"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #13",
+            "location": "Research Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#13"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #14",
+            "location": "Holding Cells",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#14"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #15",
+            "location": "Holding Cells",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#15"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #16",
+            "location": "Cryo Storage",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#16"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #17",
+            "location": "Cryo Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#17"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #18",
+            "location": "Biological Research",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#18"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #19",
+            "location": "Waste Disposal",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "is only accessible once!",
+            "id": "collectable-alien_captive_logs-log-#19"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #20",
+            "location": "Experimentation Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#20"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #21",
+            "location": "Research Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#21"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #22",
+            "location": "Holding Cells",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#22"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #23",
+            "location": "Living Quarters",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#23"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #24",
+            "location": "Weapons Lab",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#24"
+        },
+        {
+            "type": "alien_captive_logs",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "Log #25",
+            "location": "Cryo Storage",
+            "amount": "1",
+            "wiki_url": "1",
+            "notes": "",
+            "id": "collectable-alien_captive_logs-log-#25"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Adams Air Force Base",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-adams-air-force-base"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Alexandria Arms",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-alexandria-arms"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Anchorage Memorial",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-anchorage-memorial"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Andale",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-andale"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "AntAgonizer's Lair",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-antagonizer's-lair"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Arefu",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-arefu"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Arlington Library",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-arlington-library"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Bethesda Ruins",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-bethesda-ruins"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Calvert Mansion",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-calvert-mansion"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Charnel House",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-charnel-house"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Chaste Acres Dairy Farm",
+            "amount": "6",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-chaste-acres-dairy-farm"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Chryslus Building",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-chryslus-building"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Cliffside Cavern",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-cliffside-cavern"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Deathclaw Sanctuary",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-deathclaw-sanctuary"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Dukov's Place",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-dukov's-place"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Dunwich Building",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-dunwich-building"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Evergreen Mills",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": " ",
+            "id": "collectable-nukacola_quantum-evergreen-mills"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Flooded Metro",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-flooded-metro"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Foggy Bottom Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-foggy-bottom-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Fort Bannister",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-fort-bannister"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Fort Constantine",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-fort-constantine"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Fort Independence",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-fort-independence"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Franklin Metro Utility",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-franklin-metro-utility"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Georgetown West",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-georgetown-west"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Germantown Police HQ",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-germantown-police-hq"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Ghoul Outpost",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-ghoul-outpost"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Greener Pastures Disposal Site",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-greener-pastures-disposal-site"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Hamilton's Hideaway",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-hamilton's-hideaway"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Hubris Comics",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-hubris-comics"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Jalbert Brothers Waste Disposal",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-jalbert-brothers-waste-disposal"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Jocko's Pop & Gas Stop",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-jocko's-pop-&-gas-stop"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Jury Street Metro Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-jury-street-metro-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "L.O.B. Enterprises",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-l.o.b.-enterprises"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "La Maison Beauregard",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-la-maison-beauregard"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Lincoln Memorial",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-lincoln-memorial"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Lucky's",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-lucky's"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Mama Dolce's",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-mama-dolce's"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Marigold Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-marigold-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "MDPL Mass Relay Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-mdpl-mass-relay-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "MDPL-13 Power Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-mdpl-13-power-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "MDPL-16 Power Station ",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-mdpl-16-power-station-"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Minefield",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-minefield"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Mirelurk Nesting Hole",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-mirelurk-nesting-hole"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Murder Pass",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-murder-pass"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Museum of History",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-museum-of-history"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Museum of Technology",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-museum-of-technology"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "National Guard Depot",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-national-guard-depot"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Nuka-Cola Plant",
+            "amount": "4",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-nuka-cola-plant"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Oasis",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-oasis"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Olney Sewers",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-olney-sewers"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Paradise Falls",
+            "amount": "5",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-paradise-falls"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Potomac River",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-potomac-river"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Red Racer Factory",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-red-racer-factory"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Regulator HQ",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-regulator-hq"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Republic of Dave",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-republic-of-dave"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Rockbreaker's Last Gas",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-rockbreaker's-last-gas"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Rock Creek Caverns",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-rock-creek-caverns"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Roosevelt Academy",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": " ",
+            "id": "collectable-nukacola_quantum-roosevelt-academy"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Satcom Array NN-03d ",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-satcom-array-nn-03d-"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Sewer Waystation",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-sewer-waystation"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Smith Casey's Garage",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-smith-casey's-garage"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Springvale Elementary",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-springvale-elementary"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Statesman Hotel Restaurant",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-statesman-hotel-restaurant"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Super Duper Mart",
+            "amount": "3",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-super-duper-mart"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Taft Tunnels",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-taft-tunnels"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Takoma Industrial",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-takoma-industrial"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Tenleytown/Friendship Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-tenleytown/friendship-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "VAPL-58 Power Station",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-vapl-58-power-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Vault 87",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-vault-87"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Vault 92",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-vault-92"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Vault 108",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-vault-108"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Vault-Tec Headquarters",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-vault-tec-headquarters"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Vernon Square East",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-vernon-square-east"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Warrington Station",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-warrington-station"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "main",
+            "name": "",
+            "location": "Yao Guai Tunnels",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": " ",
+            "id": "collectable-nukacola_quantum-yao-guai-tunnels"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "broken_steel",
+            "name": "",
+            "location": "Museum Authority Building",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-museum-authority-building"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "broken_steel",
+            "name": "",
+            "location": "Old Olney Underground",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-old-olney-underground"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "broken_steel",
+            "name": "",
+            "location": "Presidential Metro",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": " ",
+            "id": "collectable-nukacola_quantum-presidential-metro"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "mothership_zeta",
+            "name": "",
+            "location": "Engineering Core",
+            "amount": "3",
+            "wiki_url": "",
+            "notes": " ",
+            "id": "collectable-nukacola_quantum-engineering-core"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "point_lookout",
+            "name": "",
+            "location": "Flooded Sinkhole",
+            "amount": "2",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-flooded-sinkhole"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "point_lookout",
+            "name": "",
+            "location": "Ritual Site",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-ritual-site"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "point_lookout",
+            "name": "",
+            "location": "Trapper Shack",
+            "amount": "1",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable-nukacola_quantum-trapper-shack"
+        },
+        {
+            "type": "nukacola_quantum",
+            "secondary_type": "",
+            "game_section": "the_pitt",
+            "name": "",
+            "location": "Abandoned Apartments",
+            "amount": "3",
+            "wiki_url": "",
+            "notes": " ",
+            "id": "collectable-nukacola_quantum-abandoned-apartments"
+        },
+        {
+            "type": "",
+            "secondary_type": "",
+            "game_section": "",
+            "name": "",
+            "location": "",
+            "amount": "",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable--"
+        },
+        {
+            "type": "",
+            "secondary_type": "",
+            "game_section": "",
+            "name": "",
+            "location": "",
+            "amount": "",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable--"
+        },
+        {
+            "type": "",
+            "secondary_type": "",
+            "game_section": "",
+            "name": "",
+            "location": "",
+            "amount": "",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable--"
+        },
+        {
+            "type": "",
+            "secondary_type": "",
+            "game_section": "",
+            "name": "",
+            "location": "",
+            "amount": "",
+            "wiki_url": "",
+            "notes": "",
+            "id": "collectable--"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+type,game_section,name,wiki_url
+clothing,main,Advance Radiation Suit,
+clothing,main,Armored Vault 101 Jumpsuit,
+clothing,main,Athlete of the Wastes Outfit
+clothing,main,Bandana
+clothing,main,Biker Goggles,
+clothing,main,Blast Off Pajamas
+clothing,main,Boogeyman's Hood
+clothing,main,Brahmin-skin Outfit
+clothing,main,Brotherhood Power Armor
+clothing,main,Brotherhood Power Helmet
+clothing,main,Brotherhood Scribe Robe
+clothing,main,Button's Wig
+clothing,main,Chinese Commando Hat
+clothing,main,Chinese General Hat
+clothing,main,Chinese Jumpsuit
+clothing,main,Colonel Autumn's Uniform
+clothing,main,Combat Armor
+clothing,main,Combat Helmet
+clothing,main,Crow's Eyebot Helmet
+clothing,main,Dad's Wasteland Outfit
+clothing,main,Dirty Chinese Jumpsuit
+clothing,main,Dirty Pre-War Businesswear
+clothing,main,Dirty Pre-War Casualwear
+clothing,main,Dirty Pre-War Kid's Outfit
+clothing,main,Dirty Pre-War Parkstroller Outfit
+clothing,main,Dirty Pre-War Relaxedwear
+clothing,main,Dirty Pre-War Spring Outfit
+clothing,main,Doctor Li's Outfit,
+clothing,main,Elder Lyon's Robe
+clothing,main,Enclave Officer Hat
+clothing,main,Enclave Officer Uniform
+clothing,main,Enclave Power Armor
+clothing,main,Enclave Power Helmet
+clothing,main,Enclave Scientist Outfit
+clothing,main,Environment Suit
+clothing,main,Eulogy Jones' Hat
+clothing,main,Eulogy Jones' Suit
+clothing,main,Eyebot Helmet
+clothing,main,Eyeglasses
+clothing,main,Ghoul Mask
+clothing,main,Grimy Pre-War Businesswear
+clothing,main,Head Wrap (Dark Gray)
+clothing,main,Head Wrap (Gray)
+clothing,main,Head Wrap (Red/Yellow Plaid)
+clothing,main,Head Wrap (White)
+clothing,main,Hockey Mask
+clothing,main,Junior Officer Outfit
+clothing,main,Kid's Baseball Cap
+clothing,main,Kid's Cave Rat Outfit
+clothing,main,Lab Coat
+clothing,main,Lab Technician Outfit
+clothing,main,Leather Armor
+clothing,main,Ledoux's Hockey Mask
+clothing,main,Lesko's Lab Coat
+clothing,main,Lincoln's Hat
+clothing,main,Linden's Outcast Power Armor
+clothing,main,Lucky Shades
+clothing,main,Lyon's Pride Power Armor
+clothing,main,Maple's Garb
+clothing,main,Merc Adventurer Outfit
+clothing,main,Merc Charmer Outfit
+clothing,main,Merc Cruiser Outfit
+clothing,main,Merc Grunt Outfit
+clothing,main,Merc Troublemaker Outfit
+clothing,main,Merc Veteran Outfit
+clothing,main,Metal Armor
+clothing,main,Metal Helmet
+clothing,main,Modified Utility Jumpsuit
+clothing,main,Motorcycle Helmet
+clothing,main,Naughty Nightwear
+clothing,main,Oasis Druid Hood
+clothing,main,Oasis Robe
+clothing,main,Oasis Villager Robe
+clothing,main,Outcast Power Armor
+clothing,main,Outcast Power Helmet
+clothing,main,Party Hat
+clothing,main,Police Hat
+clothing,main,Power Armor
+clothing,main,Power Helmet
+clothing,main,Pre-War Baseball Cap
+clothing,main,Pre-War Bonnet
+clothing,main,Pre-War Casualwear
+clothing,main,Pre-War Hat
+clothing,main,Pre-War Kid's Outfit
+clothing,main,Pre-War Parkstroller Outfit
+clothing,main,Pre-War Relaxedwear
+clothing,main,Pre-War Spring Outfit
+clothing,main,Prototype Medic Power Armor
+clothing,main,Radiation Suit
+clothing,main,Ragamuffin Outfit
+clothing,main,Raider Arclight Helmet
+clothing,main,Raider Badlands Armor
+clothing,main,Raider Blastmaster Armor
+clothing,main,Raider Blastmaster Helmet
+clothing,main,Raider Painspike Armor
+clothing,main,Raider Psycho-tic Helmet
+clothing,main,Raider Sadist Armor
+clothing,main,Raider Wastehound Helmet
+clothing,main,Ranger Battle Armor
+clothing,main,Ranger Battle Helmet
+clothing,main,Reading Glasses
+clothing,main,Recon Armor
+clothing,main,Recon Armor Helmet
+clothing,main,Red Racer Jumpsuit
+clothing,main,Red's Bandana
+clothing,main,Red's Jumpsuit
+clothing,main,Regulator Duster
+clothing,main,Rivet City Security Helmet
+clothing,main,Rivet City Security Uniform
+clothing,main,RobCo Jumpsuit
+clothing,main,Roving Trader Hat
+clothing,main,Roving Trader Outfit
+clothing,main,Scientist Outfit
+clothing,main,Sexy Sleepwear
+clothing,main,Shady Hat
+clothing,main,Sheriff's Duster
+clothing,main,Sheriff's Hat (Curled Brim)
+clothing,main,Stormchaser Hat
+clothing,main,Sunglasses
+clothing,main,T-51B Power Armor
+clothing,main,T-51B Power Helmet
+clothing,main,Takoma Park Little Leaguer Cap
+clothing,main,Talon Combat Armor
+clothing,main,Talon Combat Helmet
+clothing,main,Tenpenny Security Uniform
+clothing,main,Tenpenny's Suit
+clothing,main,Tesla Armor
+clothing,main,Tesla Helmet
+clothing,main,The AntAgonizer's Costume
+clothing,main,The AntAgonizer's Helmet
+clothing,main,The Mechanist's Costume
+clothing,main,The Mechanist's Helmet
+clothing,main,The Surgeon's Lab Coat
+clothing,main,Three Dog's Glasses
+clothing,main,Three Dog's Head Wrap
+clothing,main,Tinted Reading Glasses
+clothing,main,Torcher's Mask
+clothing,main,Tortoiseshell Glasses
+clothing,main,Tunnel Snake Outfit
+clothing,main,Vance's Longcoat Outfit
+clothing,main,Vault 101 Jumpsuit
+clothing,main,Vault 101 Security Armor
+clothing,main,Vault 101 Security Helmet
+clothing,main,Vault 101 Utility Jumpsuit
+clothing,main,Vault 106 Jumpsuit
+clothing,main,Vault 108 Jumpsuit
+clothing,main,Vault 112 Jumpsuit
+clothing,main,Vault 77 Jumpsuit
+clothing,main,Vault Lab Uniform
+clothing,main,Wanderer's Leather Armor
+clothing,main,Wasteland Doctor Fatigues
+clothing,main,Wasteland Legend Outfit
+clothing,main,Wasteland Scout Uniform
+clothing,main,Wasteland Settler Outfit
+clothing,main,Wasteland Surgeon Outfit
+clothing,main,Wasteland Wanderer Outfit
+clothing,broken_steel,Composite Recon Helmet
+clothing,broken_steel,All-Nighter Nightwear
+clothing,broken_steel,Enclave Hellfire Armor
+clothing,broken_steel,Enclave Hellfire Helmet
+clothing,broken_steel,Lag-Bolt's Combat Armor
+clothing,broken_steel,Lag-Bolt's Shades
+clothing,broken_steel,Poplar's Hood
+clothing,broken_steel,Wig 
+clothing,operation_anchorage,Army Mechanic Jumpsuit
+clothing,operation_anchorage,Chinese Stealth Armor
+clothing,operation_anchorage,General Jingwei's Uniform
+clothing,operation_anchorage,Neural Interface Suit
+clothing,operation_anchorage,Outcast Scribe Robe
+clothing,operation_anchorage,Winterized Chinese Commando Hat
+clothing,operation_anchorage,Winterized Chinese Jumpsuit
+clothing,operation_anchorage,Winterized Combat Armor
+clothing,operation_anchorage,Winterized Combat Helmet
+clothing,operation_anchorage,Winterized T-51B Power Armor
+clothing,operation_anchorage,Winterized T-51B Power Helmet
+clothing,point_lookout,Confederate Hat
+clothing,point_lookout,Cryptochromatic Spectacles
+clothing,point_lookout,Desmond's Eyeglasses
+clothing,point_lookout,Grifter's Fit
+clothing,point_lookout,Handyman Jumpsuit
+clothing,point_lookout,Pint-Sized Slasher Mask
+clothing,point_lookout,Tribal Garb
+clothing,point_lookout,Workman's Coveralls
+clothing,the_pitt,Ashur's Power Armor
+clothing,the_pitt,Bombshell Armor
+clothing,the_pitt,Filtration Helmet
+clothing,the_pitt,Gamma Shield Armor
+clothing,the_pitt,Hat of the People
+clothing,the_pitt,Laborer Outfit
+clothing,the_pitt,Leather Rebel
+clothing,the_pitt,Metal Master Armor
+clothing,the_pitt,Raider Commando Armor
+clothing,the_pitt,Raider Iconoclast Armor
+clothing,the_pitt,Raider Ordinance Armor
+clothing,the_pitt,Raider Paingiver Armor
+clothing,the_pitt,Raider Throwdown Armor
+clothing,the_pitt,Supervisor Helmet
+clothing,the_pitt,Tattered Slave Outfit
+clothing,the_pitt,Tribal Power Armor
+clothing,the_pitt,Welder's Mask
+clothing,the_pitt,Worn Slave Outfit 
+clothing,mothership_zeta,General Chase's Overcoat
+clothing,mothership_zeta,Paulson's Outfit
+clothing,mothership_zeta,Samurai Armor
+clothing,mothership_zeta,Samurai Helmet
+clothing,mothership_zeta,Sheriff's Hat (Flat Brim)
+clothing,mothership_zeta,Spacesuit
+clothing,mothership_zeta,Winterized Medic Armor
+clothing,mothership_zeta,Winterized Medic Helmet
+weapons,main,.32 Pistol,
+weapons,main,10mm Pistol,
+weapons,main,10mm SMG,
+weapons,main,A3-21 Plasma Rifle,
+weapons,main,Alien Blaster,
+weapons,main,Ant's Sting,
+weapons,main,Assault Rifle,
+weapons,main,Baseball Batt,
+weapons,main,BB Gun,
+weapons,main,Blackhawk,
+weapons,main,Board of Education,
+weapons,main,Bottlecap Mine,
+weapons,main,Brass Knuckles,
+weapons,main,Burnmaster,
+weapons,main,Butch's Toothpick,
+weapons,main,Chinese Assault Rifle,
+weapons,main,Chinese Officer's Sword,
+weapons,main,Chinese Pistol,
+weapons,main,Colonel Autumn's 10mm Pistol,
+weapons,main,Colonel Autumn's Laser Pistol,
+weapons,main,Combat Knife,
+weapons,main,Combat Shotgun,
+weapons,main,Dart Gun,
+weapons,main,Deathclaw Gauntlet,
+weapons,main,Eugene,
+weapons,main,Experimental MIRV,
+weapons,main,Fat Man,
+weapons,main,Fawkes' Super Sledge,
+weapons,main,Firelance,
+weapons,main,Fisto!,
+weapons,main,Flamer,
+weapons,main,Frag Grenade,
+weapons,main,Frag Mine,
+weapons,main,Gatling Laser,
+weapons,main,Highwayman's Friend,
+weapons,main,Hunting Rifle,
+weapons,main,Jack,
+weapons,main,Knife,
+weapons,main,Laser Pistol,
+weapons,main,Laser Rifle,
+weapons,main,Lead Pipe,
+weapons,main,Lincoln's Repeater,
+weapons,main,Mesmetron,
+weapons,main,Minigun,
+weapons,main,Miss Launcher,
+weapons,main,Missile Launcher,
+weapons,main,Nail Board,
+weapons,main,Nuka-Grenade,
+weapons,main,Occam's Razor,
+weapons,main,Ol' Painless,
+weapons,main,Plasma Grenade,
+weapons,main,Plasma Mine,
+weapons,main,Plasma Pistol,
+weapons,main,Plasma Rifle,
+weapons,main,Plunkett's Valid Points,
+weapons,main,Police Baton,
+weapons,main,Pool Cue,
+weapons,main,Power Fist,
+weapons,main,Pulse Grenade,
+weapons,main,Pulse Mine,
+weapons,main,Railway Rifle,
+weapons,main,Repellent Stick,
+weapons,main,Reservist's Rifle,
+weapons,main,Ripper,
+weapons,main,Rock-It Launcher,
+weapons,main,Rolling Pin,
+weapons,main,Sawed-Off Shotgun,
+weapons,main,Scoped .44 Magnum,
+weapons,main,Shishkebab,
+weapons,main,Silenced 10mm Pistol,
+weapons,main,Sledgehammer,
+weapons,main,Smuggler's End,
+weapons,main,Sniper Rifle,
+weapons,main,Spiked Knuckles,
+weapons,main,Stabhappy,
+weapons,main,Super Sledge,
+weapons,main,Switchblade,
+weapons,main,Sydney's 10mm “Ultra” SMG,
+weapons,main,The Break,
+weapons,main,The Kneecapper,
+weapons,main,The Shocker,
+weapons,main,The Tenderizer,
+weapons,main,The Terrible Shotgun,
+weapons,main,Tire Iron,
+weapons,main,Vampire's Edge,
+weapons,main,Vengeance,
+weapons,main,Victory Rifle,
+weapons,main,Wazer Wifle,
+weapons,main,Xuanlong Assault Rifle,
+weapons,main,Zhu-Rong v418 Chinese Pistol, 
+weapons,broken_steel,Callahan's Magnum,
+weapons,broken_steel,Heavy Incinerator,
+weapons,broken_steel,Precision Gatling Laser,
+weapons,broken_steel,Rapid-Torch Flamer,
+weapons,broken_steel,Slo-Burn Flamer,
+weapons,broken_steel,Tesla Canon,
+weapons,broken_steel,Tesla Canon (Beta),
+weapons,broken_steel,Tri-Beam Laser Rifle,
+weapons,operation_anchorage,Gauss Rifle,
+weapons,operation_anchorage,Jingwei's Shocksword,
+weapons,operation_anchorage,Smoke Grenade,
+weapons,operation_anchorage,Trench Knife,
+weapons,point_lookout,Axe,
+weapons,point_lookout,Backwater Rifle,
+weapons,point_lookout,Bio-Gas Canister,
+weapons,point_lookout,Double Barrel Shotgun,
+weapons,point_lookout,Fertilizer Shovel,
+weapons,point_lookout,Lever-Action Rifle,
+weapons,point_lookout,Microwave Emitter,
+weapons,point_lookout,Ritual Knife,
+weapons,point_lookout,Shovel,
+weapons,point_lookout,The Dismemberer,
+weapons,point_lookout,Toy Knife, 
+weapons,the_pitt,Auto Axe,
+weapons,the_pitt,Infiltrator,
+weapons,the_pitt,Man Opener,
+weapons,the_pitt,Metal Blaster,
+weapons,the_pitt,Perforator,
+weapons,the_pitt,Steel Knuckles,
+weapons,the_pitt,Steel Saw,
+weapons,the_pitt,The Mauler,
+weapons,the_pitt,Wild Bill's Sidearm, 
+weapons,mothership_zeta,Alien Atomizer,
+weapons,mothership_zeta,Alien Disintegrator,
+weapons,mothership_zeta,Atomic Pulverizer,
+weapons,mothership_zeta,Captain's Sidearm,
+weapons,mothership_zeta,Cryo Grenade,
+weapons,mothership_zeta,Cryo Mine,
+weapons,mothership_zeta,Destabilizer,
+weapons,mothership_zeta,Drone Cannon,
+weapons,mothership_zeta,Drone Cannon EX-B,
+weapons,mothership_zeta,Electro-Supressor,
+weapons,mothership_zeta,MPLX Novasurge,
+weapons,mothership_zeta,Paulson's Revolver,
+weapons,mothership_zeta,Samurai's Sword,
+weapons,mothership_zeta,Shock Baton,

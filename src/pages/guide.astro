@@ -1,39 +1,97 @@
 ---
 
 import Layout from '../layouts/layout.astro'
-import data from '../data/quests.json';
+import data from '../data/checklistdata.json';
 import Checkbox from '../components/checkbox.astro';
+import { linkStyles } from '../constants/styles';
+
 
 const buttonClazz = "border border-lime-500 px-4 py-2"
 ---
 
-<Layout showNav>
+<Layout showNav baseName={"guide"}>
 	<div class="grid place-items-center text-lime-500 text-center text-mono m-2">
-    <h1 class="text-7xl m-2 underline mb-8">Quests</h1>
+
     <game-checklist>
+      <h1 class="text-7xl m-2 underline mb-8 text-shadow-lg shadow-lime-400">Capital Wasteland Checklist</h1>
+
+
       <form id="game-form">
-        <div class="p-2">
-          <!-- <button id="loadButton" class={buttonClazz} type="button">Load</button> -->
-          <button id="saveButton" class={buttonClazz} type="button">Save</button>
-          <button id="resetButton" class={buttonClazz} type="reset">Clear</button>
+        
+        <div class="border border-lime-500 flex flex-row justify-between">
+          <div>
+            <a class={`block ${linkStyles}`} href="guide/#quests">Quests</a>
+            <a class={`block ${linkStyles}`} href="#items">Items</a>
+            <a class={`block ${linkStyles}`} href="#collectables">Collectables</a>
+          </div>
+
+          <div class="p-2 flex flex-col justify-center">
+            <h4>Action Items</h4>
+            <h1 id="scoreboard" class="text-6xl">0/XXX</h1>
+          </div>
+          
+          <div class="p-2 flex flex-col justify-center">
+            <!-- <button id="loadButton" class={buttonClazz} type="button">Load</button> -->
+            <!-- <button id="saveButton" class={buttonClazz} type="button">Save</button> -->
+            <button id="resetButton" class={buttonClazz} type="reset">Clear</button>
+          </div>
         </div>
+        <h1 id="quests" class="text-6xl m-2 underline mb-8">Quests</h1>
         <div class="grid sm:grid-cols-2 gap-2">
           {data["quests"].map( datum => {
-            return (
-              <div class="border border-lime-500 flex flex-row align-center">
-                <div class="text-left col-span-2 p-2">
-                  <div class="text-2xl">{datum["name"]}</div>
-                  <div>{`Location: ${datum["location"]}`}</div>
-                  <div>{`Acquired by ${datum["acquired"]}`}</div>  
+              return (
+                <div class="border border-lime-500 flex flex-row align-center">
+                  <div class="text-left col-span-2 p-2">
+                    <div class="text-2xl">{datum["name"]}</div>
+                    <div>{`Location: ${datum["location"]}`}</div>
+                    <div>{`Acquired by ${datum["acquired"]}`}</div>  
+                  </div>
+                  <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
+                    <Checkbox id={datum["id"]} label="Found"/>
+                    {datum["repeatable"] === "f" && <Checkbox id={datum["id"]} label="Done"/>}
+                  </div>
                 </div>
-                <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                  <Checkbox id={datum["id"]} label="Found"/>
-                  {datum["repeatable"] === "f" && <Checkbox id={datum["id"]} label="Done"/>}
-                </div>
-              </div>
-            );
-          })}
+              );
+            })
+          }
         </div>
+
+        <h1 id="items" class="text-6xl m-2 underline mb-8">Items</h1>
+        <div class="grid sm:grid-cols-2 gap-2">
+          {data["items"].map( datum => {
+              return (
+                <div class="border border-lime-500 flex flex-row align-center">
+                  <div class="text-left col-span-2 p-2">
+                    <div class="text-2xl">{datum["name"]}</div>
+                    <div>{`Location: ${datum["location"]}`}</div>
+                  </div>
+                  <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
+                    <Checkbox id={datum["id"]} label="Found"/>
+                  </div>
+                </div>
+              );
+            })
+          }
+        </div>
+
+        <h1 id="collectables" class="text-6xl m-2 underline mb-8 mt-6">Collectables</h1>
+        <div class="grid sm:grid-cols-2 gap-2">
+          {data["collectables"].map( datum => {
+              return (
+                <div class="border border-lime-500 flex flex-row align-center">
+                  <div class="text-left col-span-2 p-2">
+                    <div class="text-2xl">{datum["name"]}</div>
+                    {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
+                  </div>
+                  <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
+                    <Checkbox id={datum["id"]} label="Found"/>
+                  </div>
+                </div>
+              );
+            })
+          }
+        </div>
+
       </form>
     </game-checklist>
   </div>
@@ -51,32 +109,53 @@ const buttonClazz = "border border-lime-500 px-4 py-2"
       this.querySelector("#saveButton")?.addEventListener("click",  (e) => {
         console.log("helllloooo")
         e.preventDefault();
-        this.saveData(e.target);
+        this.saveData();
       });
 
       this.querySelector("#loadButton")?.addEventListener("click",  (e) => {
         e.preventDefault();
         this.loadData();
+        this.updateScoreboard()
       });
 
       this.querySelector("form")?.addEventListener("reset", (e) => {
         localStorage.removeItem("f3data");
+        this.updateScoreboard()
+
       });
 
       this.querySelector("form")?.addEventListener("change", (e) => {
-        this.saveData(e.target);
+        this.saveData();
+        this.updateScoreboard()
       });
 
       this.loadData();
+      this.updateScoreboard()
+
     }
 
     getForm() {
-      return new FormData(this.querySelector('form'))
+      return this.querySelector('form');
+    }
+
+    getFormData() {
+      return new FormData(this.getForm())
+    }
+
+    getScoreboard() {
+      return this.querySelector("#scoreboard");
+    }
+
+    updateScoreboard() {
+      let formData =  this.getFormData();
+      let checked = Object.keys(Object.fromEntries(formData.entries())).length;
+      let total = this.getForm().querySelectorAll("input").length;
+      this.getScoreboard().innerHTML = `${checked}/${total}`;
     }
 
 
     handleData(form) {
-      let formData =  this.getForm();
+      let formData =  this.getFormData();
 
       // iterate through entries...
       for (let pair of formData.entries()) {
@@ -89,7 +168,7 @@ const buttonClazz = "border border-lime-500 px-4 py-2"
 
     saveData() {
       console.log("saving data...")
-      let formData = this.getForm();
+      let formData = this.getFormData();
       const f3data = Object.fromEntries(formData);
       localStorage.setItem("f3data", JSON.stringify(f3data));
     }

@@ -1,0 +1,1 @@
+export const linkStyles = "hover:text-lime-400 text-xl underline decoration-dashed underline-offset-2 hover:underline-offset-4";

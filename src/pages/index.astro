@@ -1,17 +1,18 @@
 ---
+import { linkStyles } from '../constants/styles';
 import Layout from '../layouts/layout.astro'
 ---
 
 <Layout>
 	<div class="bg-stone-900 h-screen grid place-items-center text-lime-500 text-center text-mono">
 		<div class="flex flex-col justify-between grid">
-			<h1 class="text-7xl font-semibold drop-shadow-lg shadow-lime-400">Fallout 3 Checklist</h1>
-			<div class="text-xl">
+			<h1 class="text-7xl font-semibold drop-shadow-lg shadow-lime-300 text-shadow shadow-lime-400">Fallout 3 Checklist</h1>
+			<div class="text-2xl">
 				A 100+% Completionist Guide of the Capital Wasteland
 			</div>
 			<div class="grid grid-cols-2">
-				<a href="about" class="hover:text-lime-400 text-xl underline decoration-dashed">About</a>
-				<a href="guide" class="hover:text-lime-400 text-xl underline decoration-dashed">Guide</a>
+				<a href="about" class={linkStyles}>About</a>
+				<a href="guide" class={linkStyles}>Guide</a>
 			</div>
 		</div>
 	</div>
