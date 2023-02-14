@@ -1,5 +1,7 @@
 ---
 import Link from '../components/link.astro'
+import '../styles/base.css';
+
 const {showNav, baseName} = Astro.props;
 
 let parsedBase = baseName;
@@ -10,6 +12,8 @@ while(parsedBase?.startsWith("/")) {
 if(parsedBase?.length > 0) {
 	parsedBase = parsedBase+"/"
 }
+
+
 
 ---
 

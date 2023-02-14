@@ -7,6 +7,23 @@ module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
+      colors: {
+        pip: {
+          light: "var(--pip-light)",
+          mid: "var(--pip-mid)",
+          dark: "var(--pip-dark)",
+        },
+        pip_green: {
+          light: "var(--pip-green-light)",
+          mid: "var(--pip-green-mid)",
+          dark: "var(--pip-green-dark)",
+        },
+        pip_amber: {
+          light: "var(--pip-amber-light)",
+          mid: "var(--pip-amber-mid)",
+          dark: "var(--pip-amber-dark)",
+        }
+      },
 			fontFamily: {
         sans: ["VT323", ...defaultTheme.fontFamily.sans],
       },

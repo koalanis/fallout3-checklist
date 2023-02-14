@@ -49,7 +49,7 @@ rare_items,Buttercup Toy,mothership_zeta,1,Engineering Core,1,,
 rare_items,Buttercup Toy,mothership_zeta,2,Engineering Core,1,,
 rare_items,Buttercup Toy,mothership_zeta,3,Weapons Lab,1,,
 rare_items,Buttercup Toy,mothership_zeta,4,Research Lab,1,,
-rare_items,Experimental Rho ID,,Experimental Rho ID,Camp RHO,1,,
+rare_items,other,,Experimental Rho ID,Camp RHO,1,,
 alien_captive_logs,,mothership_zeta,Log #01,Holding Cells,1,1
 alien_captive_logs,,mothership_zeta,Log #02,Cryo Lab,1,1
 alien_captive_logs,,mothership_zeta,Log #03,Holding Cells,1,1
@@ -157,8 +157,4 @@ nukacola_quantum,,mothership_zeta,,Engineering Core,3,,
 nukacola_quantum,,point_lookout,,Flooded Sinkhole,2,,
 nukacola_quantum,,point_lookout,,Ritual Site,1,,
 nukacola_quantum,,point_lookout,,Trapper Shack,1,,
-nukacola_quantum,,the_pitt,,Abandoned Apartments,3,, 
-
-
-
-
+nukacola_quantum,,the_pitt,,Abandoned Apartments,3,,
