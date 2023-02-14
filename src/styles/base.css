@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    :root,
+    html[data-theme="pip-green"] {
+        --pip-light: #24d91f;
+        --pip-mid: #21c61c;
+        --pip-dark: #1ba117;
+    }
+
+    html[data-theme="pip-amber"] {
+        --pip-light: #ffc824;
+        --pip-mid: #ffbf00;
+        --pip-dark: #e1a800;
+    }
+}

@@ -4137,7 +4137,7 @@
         },
         {
             "type": "rare_items",
-            "secondary_type": "Experimental Rho ID",
+            "secondary_type": "other",
             "game_section": "",
             "name": "Experimental Rho ID",
             "location": "Camp RHO",
@@ -5331,52 +5331,8 @@
             "location": "Abandoned Apartments",
             "amount": "3",
             "wiki_url": "",
-            "notes": " ",
+            "notes": "",
             "id": "collectable-nukacola_quantum-abandoned-apartments"
-        },
-        {
-            "type": "",
-            "secondary_type": "",
-            "game_section": "",
-            "name": "",
-            "location": "",
-            "amount": "",
-            "wiki_url": "",
-            "notes": "",
-            "id": "collectable--"
-        },
-        {
-            "type": "",
-            "secondary_type": "",
-            "game_section": "",
-            "name": "",
-            "location": "",
-            "amount": "",
-            "wiki_url": "",
-            "notes": "",
-            "id": "collectable--"
-        },
-        {
-            "type": "",
-            "secondary_type": "",
-            "game_section": "",
-            "name": "",
-            "location": "",
-            "amount": "",
-            "wiki_url": "",
-            "notes": "",
-            "id": "collectable--"
-        },
-        {
-            "type": "",
-            "secondary_type": "",
-            "game_section": "",
-            "name": "",
-            "location": "",
-            "amount": "",
-            "wiki_url": "",
-            "notes": "",
-            "id": "collectable--"
         }
     ]
 }
