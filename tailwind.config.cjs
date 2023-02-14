@@ -13,16 +13,6 @@ module.exports = {
           mid: "var(--pip-mid)",
           dark: "var(--pip-dark)",
         },
-        pip_green: {
-          light: "var(--pip-green-light)",
-          mid: "var(--pip-green-mid)",
-          dark: "var(--pip-green-dark)",
-        },
-        pip_amber: {
-          light: "var(--pip-amber-light)",
-          mid: "var(--pip-amber-mid)",
-          dark: "var(--pip-amber-dark)",
-        }
       },
 			fontFamily: {
         sans: ["VT323", ...defaultTheme.fontFamily.sans],

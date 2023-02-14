@@ -20,17 +20,12 @@ const collectableKeys = data["collectables"].reduce(agg, [])
 console.log(collectableKeys)
 ---
 
-<script>
-import { updateColors } from "../scripts/colorToggle";
-  updateColors();
-</script>
-
 <Layout showNav baseName={"guide"}>
 	<div class="grid place-items-center text-pip-dark text-center text-mono m-2">
 
-    <button id="colorButton" class="border border-pip-mid text-pip-mid">Color</button>
-    <game-checklist>
-      <h1 class="text-7xl m-2 underline mb-8 text-shadow-lg shadow-pip-light">Capital Wasteland Checklist</h1>
+    <h1 class="text-7xl m-2 underline mb-8 text-shadow-lg shadow-pip-light">Capital Wasteland Checklist</h1>
+
+    <game-checklist class="">
 
       <div class="border border-pip-dark flex flex-row justify-between">
         <div class="p-2">
@@ -282,7 +277,7 @@ import { updateColors } from "../scripts/colorToggle";
           </section>
 
         </section>
-        
+         
 
       </form>
     </game-checklist>
@@ -292,12 +287,6 @@ import { updateColors } from "../scripts/colorToggle";
 
 
 <script>
-import { toggleColors, updateColors } from "../scripts/colorToggle";
-  updateColors();
-
-  document.getElementById("colorButton").addEventListener("click", e => {
-      toggleColors();
-  });
 
   class GameChecklist extends HTMLElement {
     state: {};
@@ -336,6 +325,10 @@ import { toggleColors, updateColors } from "../scripts/colorToggle";
 
       this.loadData();
       this.updateScoreboard()
+
+      // window.addEventListener("DOMContentLoaded", (e) => {
+      //   this.classList.remove("hidden")
+      // })
     }
 
     addSectionToggle(toggleId, sectionId) {
@@ -366,19 +359,6 @@ import { toggleColors, updateColors } from "../scripts/colorToggle";
       let checked = Object.keys(Object.fromEntries(formData.entries())).length;
       let total = this.getForm().querySelectorAll("input").length;
       this.getScoreboard().innerHTML = `${checked}/${total}`;
-    }
-
-
-    handleData(form) {
-      let formData =  this.getFormData();
-
-      // iterate through entries...
-      for (let pair of formData.entries()) {
-        console.log(pair[0] + ": " + pair[1]);
-      }
-
-      // ...or output as an object
-      console.log(Object.fromEntries(formData));
     }
 
     saveData() {
