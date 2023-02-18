@@ -1,12 +1,35 @@
 ---
-const {label, id, defaultChecked} = Astro.props;
+const {label, id, defaultChecked, circle, size, ignore} = Astro.props;
+
+let sizing = "";
+
+switch(size) {
+  case "sm":
+    sizing = "w-2 h-2";
+    break;
+  case "md":
+    sizing = "w-4 h-4";
+    break;
+  case "lg":
+    sizing = "w-6 h-6";
+    break;
+  default:
+    sizing = "w-6 h-6";
+    break;
+}
+
+const inputConfig = {}
+if(ignore) {
+  inputConfig['data-ignore'] = true; 
+}
+
 ---
 
 
   <div class="flex items-center">  
     
-    <input type="checkbox" id={id} name={`${label?.toLowerCase()}-${id}`} value="true" class="opacity-0 absolute h-8 w-8" checked={!!defaultChecked}/>  
-    <div class="border border-pip-mid w-6 h-6 flex flex-shrink-0 justify-center items-center mr-2">  
+    <input {...inputConfig} type="checkbox" id={id} name={`${label?.toLowerCase()}-${id}`} value="true" class="opacity-0 absolute h-8 w-8" checked={!!defaultChecked}/>  
+    <div class={`border border-pip-mid ${sizing} flex flex-shrink-0 justify-center items-center mr-2 ${circle && "rounded-full"}`}>  
       <svg class="fill-current hidden w-3 h-3 fill-pip-dark text-pip-dark pointer-events-none" version="1.1" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg">  
         <g fill="" fill-rule="">  
           <g class="fill-pip-dark" transform="translate(-9 -11)"  fill-rule="nonzero">  
