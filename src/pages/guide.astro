@@ -201,7 +201,7 @@ console.log(collectableKeys)
                             <Checkbox ignore size="md" circle id={`${datum["id"]}--found`}/>
                           ))}
                         </div>
-                        
+
                       </div>
                       <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
                         <Checkbox id={`${datum["id"]}-found`} label="Found"/>
@@ -370,8 +370,9 @@ console.log(collectableKeys)
 
     updateScoreboard() {
       let formData =  this.getFormData();
-      let checked = Object.keys(Object.fromEntries(formData.entries())).length;
+      // let checked = Object.keys(Object.fromEntries(formData.entries())).length;
       const inputs = Array.from(this.getForm().querySelectorAll("input"));
+      let checked = inputs.filter(ele => !ele?.hasAttribute("data-ignore") && ele?.checked).length
       let total = inputs.filter(ele => !ele?.hasAttribute("data-ignore")).length;
       this.getScoreboard().innerHTML = `${checked}/${total}`;
     }
