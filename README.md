@@ -39,13 +39,20 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 All edits, suggestions, issues and PRs are welcome! 
 
 ## TODO
-- [ ] Collectable Tracking
+- [x] Collectable Tracking
 - [ ] Save + Load JSON savefile
 - [ ] More theming
+  - [x] Capital Green
+  - [x] New Vegas Amber
+  
 - [ ] Search / Filtering
+  - [ ] Filtering
+  - [ ] Searching
 - [ ] Progress Bar
 
 ## CHANGELOG
+Update responsiveness
+Update filtering
 Updated README
 Added Quests
 Initial Styling and Github Pages deployment
