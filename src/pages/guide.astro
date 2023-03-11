@@ -58,7 +58,7 @@ console.log(collectableKeys)
       <form id="game-form">
         <section id="quest-section">
           <h1 id="quests" class="text-6xl m-2 underline">Quests</h1>
-          <div class="grid sm:grid-cols-2 gap-2">
+          <div class="grid sm:grid-cols-2 gap-2 md:grid-cols-3 xl:grid-cols-6">
             {data["quests"]?.map( datum => {
                 return (
                   <div class="border border-pip-dark flex flex-row align-center">
@@ -82,7 +82,7 @@ console.log(collectableKeys)
           <h1 id="items" class="text-6xl m-2 underline mb-8">Items</h1>
 
           <h3 id="clothing" class="text-4xl m-2 italic">Clothing</h3>
-          <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+          <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-6">
             {data["items"]?.filter(ele => ele["type"] === "clothing").map( datum => {
                 return (
                   <div class="border border-pip-dark flex flex-row align-center">
@@ -99,7 +99,7 @@ console.log(collectableKeys)
           </div>
 
           <h3 id="weapons" class="text-4xl italic m-2 ">Weapons</h3>
-          <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+          <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-6">
             {data["items"]?.filter(ele => ele["type"] === "weapons").map( datum => {
                 return (
                   <div class="border border-pip-dark flex flex-row align-center">
@@ -143,14 +143,14 @@ console.log(collectableKeys)
 
           <section id="skill-books-section">
             <h3 id="skill-book-heading" class="text-4xl m-2 italic">Skill Books</h3>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-5">
               {data["collectables"]?.filter(ele => ele["type"] === "skill_book").map( datum => {
                   return (
                     <div class="border border-pip-dark flex flex-row align-center">
                       <div class="text-left col-span-2 p-2">
                         <div class="text-2xl">{datum["name"]}</div>
                         {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                        <div class="grid grid-cols-5 gap-2">
+                        <div class="grid grid-cols-5 lg:grid-cols-10 gap-2">
                           {!!datum["amount"] && Number(datum["amount"]) > 1 && [...Array( Number(datum["amount"]))].map( ele => (
                             <Checkbox ignore size="md" circle id={`${datum["id"]}--found`}/>
                           ))}
@@ -169,7 +169,7 @@ console.log(collectableKeys)
 
           <section id="alien-captive-log-section">
             <h3 id="alient-captive-log-heading" class="text-4xl m-2 italic">Alien Captive Logs</h3>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-8">
               {data["collectables"]?.filter(ele => ele["type"] === "alien_captive_logs").map( datum => {
                   return (
                     <div class="border border-pip-dark flex flex-row align-center">
@@ -188,7 +188,7 @@ console.log(collectableKeys)
 
           <section id="nuka-cola-quantum-section">
             <h3 id="nuka-cola-quantum-heading" class="text-4xl m-2 italic">Nuka Cola Quantums</h3>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-6">
               {data["collectables"]?.filter(ele => ele["type"] === "nukacola_quantum").map( datum => {
                   return (
                     <div class="border border-pip-dark flex flex-row align-center">
