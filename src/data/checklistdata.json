@@ -4029,111 +4029,111 @@
             "type": "rare_items",
             "secondary_type": "Sheet Music Books",
             "game_section": "main",
-            "name": "1",
+            "name": "Sheet 1",
             "location": "Vault 92",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-1"
+            "id": "collectable-rare_items-sheet-1"
         },
         {
             "type": "rare_items",
             "secondary_type": "Sheet Music Books",
             "game_section": "main",
-            "name": "2",
+            "name": "Sheet 2",
             "location": "Arlington Library",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-2"
+            "id": "collectable-rare_items-sheet-2"
         },
         {
             "type": "rare_items",
             "secondary_type": "Sheet Music Books",
             "game_section": "main",
-            "name": "3",
+            "name": "Sheet 3",
             "location": "The National Archives",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-3"
+            "id": "collectable-rare_items-sheet-3"
         },
         {
             "type": "rare_items",
             "secondary_type": "Sheet Music Books",
             "game_section": "main",
-            "name": "4",
+            "name": "Sheet 4",
             "location": "Springvale School",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-4"
+            "id": "collectable-rare_items-sheet-4"
         },
         {
             "type": "rare_items",
             "secondary_type": "Sheet Music Books",
             "game_section": "main",
-            "name": "5",
+            "name": "Sheet 5",
             "location": "The Statesman Hotel",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-5"
+            "id": "collectable-rare_items-sheet-5"
         },
         {
             "type": "rare_items",
             "secondary_type": "Sheet Music Books",
             "game_section": "main",
-            "name": "6",
+            "name": "Sheet 6",
             "location": "Roosevelt Academy",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-6"
+            "id": "collectable-rare_items-sheet-6"
         },
         {
             "type": "rare_items",
             "secondary_type": "Buttercup Toy",
             "game_section": "mothership_zeta",
-            "name": "1",
+            "name": "Toy 1",
             "location": "Engineering Core",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-1"
+            "id": "collectable-rare_items-toy-1"
         },
         {
             "type": "rare_items",
             "secondary_type": "Buttercup Toy",
             "game_section": "mothership_zeta",
-            "name": "2",
+            "name": "Toy 2",
             "location": "Engineering Core",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-2"
+            "id": "collectable-rare_items-toy-2"
         },
         {
             "type": "rare_items",
             "secondary_type": "Buttercup Toy",
             "game_section": "mothership_zeta",
-            "name": "3",
+            "name": "Toy 3",
             "location": "Weapons Lab",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-3"
+            "id": "collectable-rare_items-toy-3"
         },
         {
             "type": "rare_items",
             "secondary_type": "Buttercup Toy",
             "game_section": "mothership_zeta",
-            "name": "4",
+            "name": "Toy 4",
             "location": "Research Lab",
             "amount": "1",
             "wiki_url": "",
             "notes": "",
-            "id": "collectable-rare_items-4"
+            "id": "collectable-rare_items-toy-4"
         },
         {
             "type": "rare_items",

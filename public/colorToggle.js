@@ -2,6 +2,7 @@ const hardCodedTheme = "pip-amber";
 
 const currentTheme = localStorage.getItem("theme");
 
+const colors = ["pip-green", "pip-amber", "pip-white"];
 function getTheme() {
   if(currentTheme) return currentTheme;
 
@@ -27,7 +28,9 @@ window.onload = () => {
   reflectPreferences();
 
   document.querySelector("#colorButton")?.addEventListener("click", () => {
-    themeValue = themeValue === "pip-green" ? "pip-amber" : "pip-green";
+    const idx = colors.indexOf(themeValue);
+    const nextIdx = (idx+1)% colors.length;
+    themeValue = colors[nextIdx];
     setPreference()
   })
 }

@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
+    "start": "npm run generate:data && astro dev",
+    "build": "npm run generate:data && astro build",
     "preview": "astro preview",
     "generate:data": "node src/scripts/generateData.cjs",
     "astro": "astro"

@@ -16,4 +16,10 @@
         --pip-mid: #ffbf00;
         --pip-dark: #e1a800;
     }
+
+    html[data-theme="pip-white"] {
+        --pip-light: #bfffff;
+        --pip-mid: #c0ffff;
+        --pip-dark: #bfdfff;
+    }
 }

@@ -5,7 +5,6 @@ import data from '../data/checklistdata.json';
 import Checkbox from '../components/checkbox.astro';
 import { linkStyles } from '../constants/styles';
 
-
 const buttonClazz = "border border-pip-dark px-4 py-2"
 
 const agg = (acc, curr) => {
@@ -18,6 +17,7 @@ const agg = (acc, curr) => {
 
 const collectableKeys = data["collectables"].reduce(agg, [])
 console.log(collectableKeys)
+
 ---
 
 <Layout showNav baseName={"guide"}>
@@ -144,15 +144,15 @@ console.log(collectableKeys)
           <section id="skill-books-section">
             <h3 id="skill-book-heading" class="text-4xl m-2 italic">Skill Books</h3>
             <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-5">
-              {data["collectables"]?.filter(ele => ele["type"] === "skill_book").map( datum => {
+              {data["collectables"]?.filter(ele=> ele["type"] === "skill_book").map( (datum, idx) => {
                   return (
                     <div class="border border-pip-dark flex flex-row align-center">
                       <div class="text-left col-span-2 p-2">
                         <div class="text-2xl">{datum["name"]}</div>
                         {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
                         <div class="grid grid-cols-5 lg:grid-cols-10 gap-2">
-                          {!!datum["amount"] && Number(datum["amount"]) > 1 && [...Array( Number(datum["amount"]))].map( ele => (
-                            <Checkbox ignore size="md" circle id={`${datum["id"]}--found`}/>
+                          {!!datum["amount"] && Number(datum["amount"]) > 1 && [...Array( Number(datum["amount"]))].map( (_, idxx) => (
+                            <Checkbox ignore size="md" circle id={`${datum["id"]}-${idxx}--found`}/>
                           ))}
                         </div>
                       </div>
@@ -197,8 +197,8 @@ console.log(collectableKeys)
                         {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
 
                         <div class="grid grid-cols-5 gap-2">
-                          {!!datum["amount"] && Number(datum["amount"]) > 1 && [...Array( Number(datum["amount"]))].map( ele => (
-                            <Checkbox ignore size="md" circle id={`${datum["id"]}--found`}/>
+                          {!!datum["amount"] && Number(datum["amount"]) > 1 && [...Array( Number(datum["amount"]))].map( (_, idx) => (
+                            <Checkbox ignore size="md" circle id={`${datum["id"]}-${idx}--found`}/>
                           ))}
                         </div>
 
@@ -301,17 +301,15 @@ console.log(collectableKeys)
 
 
 <script>
-
   class GameChecklist extends HTMLElement {
     state: {};
     constructor() {
       super();
 
       this.state = {};
-      
+
       // Read the message from the data attribute.
       this.querySelector("#saveButton")?.addEventListener("click",  (e) => {
-        console.log("helllloooo")
         e.preventDefault();
         this.saveData();
       });
