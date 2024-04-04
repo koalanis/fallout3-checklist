@@ -1,57 +1,67 @@
 ---
+import Layout from "../layouts/layout.astro";
+import data from "../data/checklistdata.json";
+import Checkbox from "../components/checkbox.astro";
+import CompletionItem from "../components/completionItem.astro";
+import { linkStyles } from "../constants/styles";
 
-import Layout from '../layouts/layout.astro'
-import data from '../data/checklistdata.json';
-import Checkbox from '../components/checkbox.astro';
-import { linkStyles } from '../constants/styles';
-
-const buttonClazz = "border border-pip-dark px-4 py-2"
+const buttonClazz = "border border-red-500 text-red-500 px-4 py-2";
 
 const agg = (acc, curr) => {
   const type = curr["type"];
-  if(!acc?.includes(type)) {
+  if (!acc?.includes(type)) {
     acc?.push(type);
   }
   return acc;
 };
 
-const collectableKeys = data["collectables"].reduce(agg, [])
-console.log(collectableKeys)
-
+const collectableKeys = data["collectables"].reduce(agg, []);
+console.log(collectableKeys);
 ---
 
 <Layout showNav baseName={"guide"}>
-	<div class="grid place-items-center text-pip-dark text-center overflow-x-auto text-mono p-4 scroll-px-1.5">
+  <div
+    class="grid place-items-center text-pip-dark text-center overflow-x-auto text-mono p-4 scroll-px-1.5 px-10"
+  >
+    <h1 class="text-7xl underline mb-8 text-shadow-lg shadow-pip-light w-full">
+      Capital Wasteland Checklist
+    </h1>
 
-    <h1 class="text-7xl underline mb-8 text-shadow-lg shadow-pip-light w-full ">Capital Wasteland Checklist</h1>
-
-    <game-checklist class=" grid grid-cols-1 gap-4 m-auto min-w-7/8 w-full  max-w-9/10">
-
-      <div class="border border-pip-dark flex flex-row justify-between min-w-full">
-        <div class="p-2">
+    <game-checklist
+      class="grid grid-cols-1 gap-4 m-auto min-w-7/8 w-full max-w-9/10"
+    >
+      <div
+        class="border border-pip-dark flex flex-col gap-8 md:flex-row justify-between min-w-full"
+      >
+        <div class="self-center ml-3">
           <a class={`block ${linkStyles}`} href="guide/#quests">Quests</a>
           <a class={`block ${linkStyles}`} href="guide/#items">Items</a>
-          <a class={`block ${linkStyles}`} href="guide/#collectables">Collectables</a>
-        </div>
-
-        <div class="p-2 flex flex-col justify-center">
-          <h4>Action Items</h4>
-          <h1 id="scoreboard" class="text-6xl">0/999</h1>
+          <a class={`block ${linkStyles}`} href="guide/#collectables"
+            >Collectables</a
+          >
         </div>
         
-        <div class="p-2 flex flex-col justify-center">
-          <!-- <button id="loadButton" class={buttonClazz} type="button">Load</button> -->
-          <!-- <button id="saveButton" class={buttonClazz} type="button">Save</button> -->
-          <button id="resetButton" class={buttonClazz}>Clear</button>
+        <div class="flex gap-5 justify-center w-full my-auto px-4 flex-col self-center md:flex-row order-last md:order-none p-2">
+          <input id="main-search-box" type="text" placeholder="search here" class="input self-center text-3xl input-bordered input flex-1 flex-wrap max-w-lg bg-stone-900" />
+          <button id="clear-search-btn" class="border w-fit self-center p-3 border-pip-mid w-1/4 sm:w-fit">Clear</button>
+        </div>
+
+        <div class="p-2 flex flex-col justify-center order-first md:order-none">
+          <h4 class="text-2xl">Action Items</h4>
+          <h1 id="scoreboard" class="text-5xl">0/999</h1>
         </div>
       </div>
 
       <div>
         <h3>Filters</h3>
         <div class="p-2 flex justify-between items-center">
-          <Checkbox id="hide-quests-toggle" defaultChecked label="Quests"/>
-          <Checkbox id="hide-items-toggle" defaultChecked label="Items"/>
-          <Checkbox id="hide-collectables-toggle" defaultChecked label="Collectables"/>
+          <Checkbox id="hide-quests-toggle" defaultChecked label="Quests" />
+          <Checkbox id="hide-items-toggle" defaultChecked label="Items" />
+          <Checkbox
+            id="hide-collectables-toggle"
+            defaultChecked
+            label="Collectables"
+          />
         </div>
       </div>
 
@@ -59,19 +69,16 @@ console.log(collectableKeys)
         <section id="quest-section">
           <h1 id="quests" class="text-6xl m-2 underline">Quests</h1>
           <div class="grid sm:grid-cols-2 gap-2 md:grid-cols-3 xl:grid-cols-6">
-            {data["quests"]?.map( datum => {
+            {
+              data["quests"]?.map((datum) => {
                 return (
-                  <div class="border border-pip-dark flex flex-row align-center">
-                    <div class="text-left col-span-2 p-2">
-                      <div class="text-2xl">{datum["name"]}</div>
-                      <div>{`Location: ${datum["location"]}`}</div>
-                      <div>{`Acquired by ${datum["acquired"]}`}</div>  
-                    </div>
-                    <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                      <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                      {datum["repeatable"] === "f" && <Checkbox id={`${datum["id"]}-done`} label="Done"/>}
-                    </div>
-                  </div>
+                  <CompletionItem
+                    id={datum["id"]}
+                    name={datum["name"]}
+                    location={datum["location"]}
+                    acquired={datum["acquired"]}
+                    repeatable={datum["repeatable"]}
+                  />
                 );
               })
             }
@@ -83,321 +90,387 @@ console.log(collectableKeys)
 
           <h3 id="clothing" class="text-4xl m-2 italic">Clothing</h3>
           <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-6">
-            {data["items"]?.filter(ele => ele["type"] === "clothing").map( datum => {
-                return (
-                  <div class="border border-pip-dark flex flex-row align-center">
-                    <div class="text-left col-span-2 p-2">
-                      <div class="text-2xl">{datum["name"]}</div>
-                      {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                    </div>
-                    <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                      <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                    </div>
-                  </div>
-                );
-            })}
+            {
+              data["items"]
+                ?.filter((ele) => ele["type"] === "clothing")
+                .map((datum) => {
+                  return (
+                    <CompletionItem
+                      name={datum["name"]}
+                      id={datum["id"]}
+                      location={datum["location"]}
+                    />
+                  );
+                })
+            }
           </div>
 
-          <h3 id="weapons" class="text-4xl italic m-2 ">Weapons</h3>
+          <h3 id="weapons" class="text-4xl italic m-2">Weapons</h3>
           <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-6">
-            {data["items"]?.filter(ele => ele["type"] === "weapons").map( datum => {
-                return (
-                  <div class="border border-pip-dark flex flex-row align-center">
-                    <div class="text-left col-span-2 p-2">
-                      <div class="text-2xl">{datum["name"]}</div>
-                      {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                    </div>
-                    <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                      <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                    </div>
-                  </div>
-                );
-              })
+            {
+              data["items"]
+                ?.filter((ele) => ele["type"] === "weapons")
+                .map((datum) => {
+                  return (
+                    <CompletionItem
+                      name={datum["name"]}
+                      id={datum["id"]}
+                      location={datum["location"]}
+                    />
+                  );
+                })
             }
+          </div>
 
+         
         </section>
-        
-
         <section id="collectables-section">
-          <h1 id="collectables" class="text-6xl m-2 underline mb-8">Collectables</h1>
+          <h1 id="collectables" class="text-6xl m-2 underline mb-8">
+            Collectables
+          </h1>
           <section id="bobblehead-section">
-
-            <h3 id="bobblehead-heading" class="text-4xl m-2 italic">Bobbleheads</h3>
+            <h3 id="bobblehead-heading" class="text-4xl m-2 italic">
+              Bobbleheads
+            </h3>
 
             <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
-              {data["collectables"]?.filter(ele => ele["type"] === "bobblehead").map( datum => {
-                  return (
-                    <div class="border border-pip-dark flex flex-row align-center">
-                      <div class="text-left col-span-2 p-2">
-                        <div class="text-2xl">{datum["name"]}</div>
-                        {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                      </div>
-                      <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                        <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                      </div>
-                    </div>
-                  );
-              })}
+              {
+                data["collectables"]
+                  ?.filter((ele) => ele["type"] === "bobblehead")
+                  .map((datum) => {
+                    return (
+                      <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                      />
+                    );
+                  })
+              }
             </div>
           </section>
 
           <section id="skill-books-section">
-            <h3 id="skill-book-heading" class="text-4xl m-2 italic">Skill Books</h3>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-5">
-              {data["collectables"]?.filter(ele=> ele["type"] === "skill_book").map( (datum, idx) => {
-                  return (
-                    <div class="border border-pip-dark flex flex-row align-center">
-                      <div class="text-left col-span-2 p-2">
-                        <div class="text-2xl">{datum["name"]}</div>
-                        {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                        <div class="grid grid-cols-5 lg:grid-cols-10 gap-2">
-                          {!!datum["amount"] && Number(datum["amount"]) > 1 && [...Array( Number(datum["amount"]))].map( (_, idxx) => (
-                            <Checkbox ignore size="md" circle id={`${datum["id"]}-${idxx}--found`}/>
-                          ))}
-                        </div>
-                      </div>
-   
-                      <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                        <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                      </div>
-              
-                    </div>
-                  );
-              })}
+            <h3 id="skill-book-heading" class="text-4xl m-2 italic">
+              Skill Books
+            </h3>
+            <div
+              class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-5"
+            >
+              {
+                data["collectables"]
+                  ?.filter((ele) => ele["type"] === "skill_book")
+                  .map((datum, idx) => {
+                    return (
+                      <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                        amount={datum["amount"]}
+                      />
+                    );
+                  })
+              }
             </div>
           </section>
 
           <section id="alien-captive-log-section">
-            <h3 id="alient-captive-log-heading" class="text-4xl m-2 italic">Alien Captive Logs</h3>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-8">
-              {data["collectables"]?.filter(ele => ele["type"] === "alien_captive_logs").map( datum => {
-                  return (
-                    <div class="border border-pip-dark flex flex-row align-center">
-                      <div class="text-left col-span-2 p-2">
-                        <div class="text-2xl">{datum["name"]}</div>
-                        {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                      </div>
-                      <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                        <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                      </div>
-                    </div>
-                  );
-              })}
+            <h3 id="alient-captive-log-heading" class="text-4xl m-2 italic">
+              Alien Captive Logs
+            </h3>
+            <div
+              class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-4"
+            >
+              {
+                data["collectables"]
+                  ?.filter((ele) => ele["type"] === "alien_captive_logs")
+                  .map((datum) => {
+                    return (
+                    <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                      />
+                    );
+                  })
+              }
             </div>
           </section>
 
           <section id="nuka-cola-quantum-section">
-            <h3 id="nuka-cola-quantum-heading" class="text-4xl m-2 italic">Nuka Cola Quantums</h3>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-6">
-              {data["collectables"]?.filter(ele => ele["type"] === "nukacola_quantum").map( datum => {
-                  return (
-                    <div class="border border-pip-dark flex flex-row align-center">
-                      <div class="text-left col-span-2 p-2">
-                        <div class="text-2xl">{datum["name"]}</div>
-                        {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-
-                        <div class="grid grid-cols-5 gap-2">
-                          {!!datum["amount"] && Number(datum["amount"]) > 1 && [...Array( Number(datum["amount"]))].map( (_, idx) => (
-                            <Checkbox ignore size="md" circle id={`${datum["id"]}-${idx}--found`}/>
-                          ))}
-                        </div>
-
-                      </div>
-                      <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                        <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                      </div>
-                    </div>
-                  );
-              })}
+            <h3 id="nuka-cola-quantum-heading" class="text-4xl m-2 italic">
+              Nuka Cola Quantums
+            </h3>
+            <div
+              class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-6"
+            >
+              {
+                data["collectables"]
+                  ?.filter((ele) => ele["type"] === "nukacola_quantum")
+                  .map((datum) => {
+                    return (
+                    <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                        amount={datum["amount"]}
+                      />
+                    );
+                  })
+              }
             </div>
           </section>
 
-
           <section id="rare-items-section">
-              <h3 id="rare-items-heading" class="text-4xl m-2 italic">Rare Items</h3>
-              <section>
-                <h4 id="history-items-heading" class="text-3xl m-2 semibold">Museum of History Items</h4>
-                <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
-                  {data["collectables"]?.filter(ele => ele["type"] === "rare_items")?.filter(ele => ele["secondary_type"] === "Museum of History Items").map( datum => {
-                      return (
-                        <div class="border border-pip-dark flex flex-row align-center">
-                          <div class="text-left col-span-2 p-2">
-                            <div class="text-2xl">{datum["name"]}</div>
-                            {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                          </div>
-                          <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                            <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                          </div>
-                        </div>
-                      );
-                  })}
-                </div>
-              </section>
+            <h3 id="rare-items-heading" class="text-4xl m-2 italic">
+              Rare Items
+            </h3>
             <section>
-              <h4 id="sheet-music-heading" class="text-3xl m-2 semibold">Sheet Music Books</h4>
+              <h4 id="history-items-heading" class="text-3xl m-2 semibold">
+                Museum of History Items
+              </h4>
               <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
-                {data["collectables"]?.filter(ele => ele["type"] === "rare_items")?.filter(ele => ele["secondary_type"] === "Sheet Music Books").map( datum => {
-                    return (
-                      <div class="border border-pip-dark flex flex-row align-center">
-                        <div class="text-left col-span-2 p-2">
-                          <div class="text-2xl">{datum["name"]}</div>
-                          {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                        </div>
-                        <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-                          <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                        </div>
-                      </div>
-                    );
-                })}
+                {
+                  data["collectables"]
+                    ?.filter((ele) => ele["type"] === "rare_items")
+                    ?.filter(
+                      (ele) =>
+                        ele["secondary_type"] === "Museum of History Items"
+                    )
+                    .map((datum) => {
+                      return (
+                      <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                        amount={datum["amount"]}
+                      />
+                      );
+                    })
+                }
+              </div>
+            </section>
+            <section>
+              <h4 id="sheet-music-heading" class="text-3xl m-2 semibold">
+                Sheet Music Books
+              </h4>
+              <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+                {
+                  data["collectables"]
+                    ?.filter((ele) => ele["type"] === "rare_items")
+                    ?.filter(
+                      (ele) => ele["secondary_type"] === "Sheet Music Books"
+                    )
+                    .map((datum) => {
+                      return (
+                      <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                        amount={datum["amount"]}
+                      />
+                      );
+                    })
+                }
               </div>
             </section>
 
             <section>
-              <h4 id="buttercup-toy-heading" class="text-3xl m-2 semibold">Buttercup Toy</h4>
+              <h4 id="buttercup-toy-heading" class="text-3xl m-2 semibold">
+                Buttercup Toy
+              </h4>
               <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
-                {data["collectables"]?.filter(ele => ele["type"] === "rare_items")?.filter(ele => ele["secondary_type"] === "Buttercup Toy").map( datum => {
-                    return (
-                      <div class="border border-pip-dark flex flex-row align-center">
-                        <div class="text-left col-span-2 p-2">
-                          <div class="text-2xl">{datum["name"]}</div>
-                          {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                        </div>
-                        <div class="flex-auto flex gap-2 m-1 justify-end place-content-center">
-                          <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                        </div>
-                      </div>
-                    );
-                })}
+                {
+                  data["collectables"]
+                    ?.filter((ele) => ele["type"] === "rare_items")
+                    ?.filter(
+                      (ele) => ele["secondary_type"] === "Buttercup Toy"
+                    )
+                    .map((datum) => {
+                      return (
+                      <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                        amount={datum["amount"]}
+                      />
+                      );
+                    })
+                }
               </div>
             </section>
             <section>
               <h4 id="other-heading" class="text-3xl m-2 semibold">Other</h4>
               <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
-                {data["collectables"]?.filter(ele => ele["type"] === "rare_items")?.filter(ele => ele["secondary_type"] === "other").map( datum => {
-                    return (
-                      <div class="border border-pip-dark flex flex-row align-center">
-                        <div class="text-left col-span-2 p-2">
-                          <div class="text-2xl">{datum["name"]}</div>
-                          {!!datum["location"] && <div>{`Location: ${datum["location"]}`}</div>}
-                        </div>
-                        <div class="flex-auto flex gap-2 m-1 justify-end place-content-center">
-                          <Checkbox id={`${datum["id"]}-found`} label="Found"/>
-                        </div>
-                      </div>
-                    );
-                })}
+                {
+                  data["collectables"]
+                    ?.filter((ele) => ele["type"] === "rare_items")
+                    ?.filter((ele) => ele["secondary_type"] === "other")
+                    .map((datum) => {
+                      return (
+                      <CompletionItem
+                        name={datum["name"]}
+                        id={datum["id"]}
+                        location={datum["location"]}
+                        amount={datum["amount"]}
+                      />
+                      );
+                    })
+                }
               </div>
             </section>
           </section>
-
         </section>
-         
-
       </form>
+      <div class="p-2 flex flex-col justify-center">
+        <button id="resetButton" class={buttonClazz}>Clear</button>
+      </div>
     </game-checklist>
+  
   </div>
-</Layout>
 
+  <script>
+    class GameChecklist extends HTMLElement {
+      state: {};
+      constructor() {
+        super();
 
+        this.state = {};
 
-<script>
-  class GameChecklist extends HTMLElement {
-    state: {};
-    constructor() {
-      super();
+        // Read the message from the data attribute.
+        this.querySelector("#clear-search-btn")?.addEventListener("click", (e) => {
+          e.preventDefault();
+          this.clearSearchResults();
+        });
 
-      this.state = {};
+        // Read the message from the data attribute.
+        const that = this;
+        this.querySelector("#main-search-box")?.addEventListener("keydown", (e) => {
+          const key = e?.key;
+          const subtractive = (key === "Backspace" || key === "Delete");
+          const elements: Array<Element> = [];
 
-      // Read the message from the data attribute.
-      this.querySelector("#saveButton")?.addEventListener("click",  (e) => {
-        e.preventDefault();
-        this.saveData();
-      });
+          let searchTerm = `${e?.target?.value}`
+          if (subtractive) {
+            searchTerm = searchTerm.slice(0, searchTerm.length-1)
+          } else {
+            searchTerm += key;
+          }
+          console.log(`search term is :: ${searchTerm}`)
+          that.querySelectorAll('div[id^="completion-item-"]').forEach(item => elements.push(item))
 
-      this.querySelector("#loadButton")?.addEventListener("click",  (e) => {
-        e.preventDefault();
+          elements.forEach(ele => {
+            ele.classList.add("hidden")
+          })
+          elements.filter(ele => ele.id.replaceAll("-", " ").includes(searchTerm.toLowerCase()))
+            .forEach(ele => {
+              ele.classList.remove("hidden")
+          })
+          
+        });      
+
+        this.querySelector("#loadButton")?.addEventListener("click", (e) => {
+          e.preventDefault();
+          this.loadData();
+          this.updateScoreboard();
+        });
+
+        this.querySelector("#resetButton")?.addEventListener("click", (e) => {
+          this.getForm().reset();
+          localStorage.removeItem("f3data");
+          this.updateScoreboard();
+        });
+
+        this.querySelector("form")?.addEventListener("change", (e) => {
+          this.saveData();
+          this.updateScoreboard();
+        });
+
+        this.addSectionToggle("#hide-quests-toggle", "#quest-section");
+        this.addSectionToggle("#hide-items-toggle", "#items-section");
+        this.addSectionToggle(
+          "#hide-collectables-toggle",
+          "#collectables-section"
+        );
+
         this.loadData();
-        this.updateScoreboard()
-      });
-
-      this.querySelector("#resetButton")?.addEventListener("click", (e) => {
-        this.getForm().reset();
-        localStorage.removeItem("f3data");
         this.updateScoreboard();
-      });
 
-      this.querySelector("form")?.addEventListener("change", (e) => {
-        this.saveData();
-        this.updateScoreboard()
-      });
+        // window.addEventListener("DOMContentLoaded", (e) => {
+        //   this.classList.remove("hidden")
+        // })
+      }
 
-      this.addSectionToggle("#hide-quests-toggle", "#quest-section")
-      this.addSectionToggle("#hide-items-toggle", "#items-section")
-      this.addSectionToggle("#hide-collectables-toggle", "#collectables-section")
+      addSectionToggle(toggleId, sectionId) {
+        this.querySelector(toggleId)?.addEventListener("change", (e) => {
+          const toggled = e.target?.checked;
+          if (toggled == false) {
+            this.querySelector(sectionId)?.setAttribute("hidden", "");
+          } else {
+            this.querySelector(sectionId)?.removeAttribute("hidden");
+          }
+        });
+      }
 
-      this.loadData();
-      this.updateScoreboard()
+      getForm() {
+        return this.querySelector("form");
+      }
 
-      // window.addEventListener("DOMContentLoaded", (e) => {
-      //   this.classList.remove("hidden")
-      // })
-    }
+      getFormData() {
+        return new FormData(this.getForm());
+      }
 
-    addSectionToggle(toggleId, sectionId) {
-      this.querySelector(toggleId)?.addEventListener("change", (e) => {
-        const toggled = e.target?.checked;
-        if(toggled == false) {
-          this.querySelector(sectionId)?.setAttribute("hidden", "");
-        } else {
-          this.querySelector(sectionId)?.removeAttribute("hidden");
+      getScoreboard() {
+        return this.querySelector("#scoreboard");
+      }
+
+      updateScoreboard() {
+        let formData = this.getFormData();
+        // let checked = Object.keys(Object.fromEntries(formData.entries())).length;
+        const inputs = Array.from(this.getForm().querySelectorAll("input"));
+        let checked = inputs.filter(
+          (ele) => !ele?.hasAttribute("data-ignore") && ele?.checked
+        ).length;
+        let total = inputs.filter(
+          (ele) => !ele?.hasAttribute("data-ignore")
+        ).length;
+        this.getScoreboard().innerHTML = `${checked}/${total}`;
+      }
+
+      saveData() {
+        console.log("saving data...");
+        let formData = this.getFormData();
+        const f3data = Object.fromEntries(formData);
+        localStorage.setItem("f3data", JSON.stringify(f3data));
+      }
+
+      clearSearchResults() {
+        console.log("saving data...");
+        this.querySelectorAll('div[id^="completion-item-"]')
+            .forEach(ele => {
+              ele.classList.remove("hidden")
+          })
+          document.getElementById("main-search-box").value = ""
         }
-      });
-    }
 
-    getForm() {
-      return this.querySelector('form');
-    }
 
-    getFormData() {
-      return new FormData(this.getForm())
-    }
-
-    getScoreboard() {
-      return this.querySelector("#scoreboard");
-    }
-
-    updateScoreboard() {
-      let formData =  this.getFormData();
-      // let checked = Object.keys(Object.fromEntries(formData.entries())).length;
-      const inputs = Array.from(this.getForm().querySelectorAll("input"));
-      let checked = inputs.filter(ele => !ele?.hasAttribute("data-ignore") && ele?.checked).length
-      let total = inputs.filter(ele => !ele?.hasAttribute("data-ignore")).length;
-      this.getScoreboard().innerHTML = `${checked}/${total}`;
-    }
-
-    saveData() {
-      console.log("saving data...")
-      let formData = this.getFormData();
-      const f3data = Object.fromEntries(formData);
-      localStorage.setItem("f3data", JSON.stringify(f3data));
-    }
-
-    loadData() {
-      console.log("load data...")
-      const f3data = JSON.parse(localStorage.getItem("f3data"));
-      if(f3data) {
-        for(let key of Object.keys(f3data)) {
-          if(f3data[key] === "true"){
-            console.log(key)
-            let selectElement = this.querySelector(`input[name="${key}"]`) as HTMLInputElement;
-            console.log("selectElement", selectElement)
-            selectElement.checked = true;
+      loadData() {
+        console.log("load data...");
+        const f3data = JSON.parse(localStorage.getItem("f3data"));
+        if (f3data) {
+          for (let key of Object.keys(f3data)) {
+            if (f3data[key] === "true") {
+              console.log(key);
+              let selectElement = this.querySelector(
+                `input[name="${key}"]`
+              ) as HTMLInputElement;
+              console.log("selectElement", selectElement);
+              selectElement.checked = true;
+            }
           }
         }
       }
     }
-
-
-  }
-  customElements.define('game-checklist', GameChecklist);
-</script>
+    customElements.define("game-checklist", GameChecklist);
+  </script>
+</Layout>

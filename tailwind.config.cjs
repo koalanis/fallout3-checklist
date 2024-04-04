@@ -28,6 +28,7 @@ module.exports = {
 		},
 	},
 	plugins: [
+    require("daisyui"),
 		plugin(function ({ matchUtilities, theme }) {
       matchUtilities(
         {
