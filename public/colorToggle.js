@@ -4,9 +4,9 @@ const currentTheme = localStorage.getItem("theme");
 
 const colors = ["pip-green", "pip-amber", "pip-white"];
 function getTheme() {
-  if(currentTheme) return currentTheme;
+  if (currentTheme) return currentTheme;
 
-  if(hardCodedTheme) return hardCodedTheme;
+  if (hardCodedTheme) return hardCodedTheme;
 
   return "pip-amber";
 }
@@ -29,12 +29,8 @@ window.onload = () => {
 
   document.querySelector("#colorButton")?.addEventListener("click", () => {
     const idx = colors.indexOf(themeValue);
-    const nextIdx = (idx+1)% colors.length;
+    const nextIdx = (idx + 1) % colors.length;
     themeValue = colors[nextIdx];
-    setPreference()
-  })
-}
-
-
-
-
+    setPreference();
+  });
+};

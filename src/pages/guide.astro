@@ -40,10 +40,21 @@ console.log(collectableKeys);
             >Collectables</a
           >
         </div>
-        
-        <div class="flex gap-5 justify-center w-full my-auto px-4 flex-col self-center md:flex-row order-last md:order-none p-2">
-          <input id="main-search-box" type="text" placeholder="search here" class="input self-center text-3xl input-bordered input flex-1 flex-wrap max-w-lg bg-stone-900" />
-          <button id="clear-search-btn" class="border w-fit self-center p-3 border-pip-mid w-1/4 sm:w-fit">Clear</button>
+
+        <div
+          class="flex gap-5 justify-center w-full my-auto px-4 flex-col self-center md:flex-row order-last md:order-none p-2"
+        >
+          <input
+            id="main-search-box"
+            type="text"
+            placeholder="search here"
+            class="input self-center text-3xl input-bordered input flex-1 flex-wrap max-w-lg bg-stone-900"
+          />
+          <button
+            id="clear-search-btn"
+            class="border w-fit self-center p-3 border-pip-mid w-1/4 sm:w-fit"
+            >Clear</button
+          >
         </div>
 
         <div class="p-2 flex flex-col justify-center order-first md:order-none">
@@ -121,8 +132,6 @@ console.log(collectableKeys);
                 })
             }
           </div>
-
-         
         </section>
         <section id="collectables-section">
           <h1 id="collectables" class="text-6xl m-2 underline mb-8">
@@ -186,7 +195,7 @@ console.log(collectableKeys);
                   ?.filter((ele) => ele["type"] === "alien_captive_logs")
                   .map((datum) => {
                     return (
-                    <CompletionItem
+                      <CompletionItem
                         name={datum["name"]}
                         id={datum["id"]}
                         location={datum["location"]}
@@ -209,7 +218,7 @@ console.log(collectableKeys);
                   ?.filter((ele) => ele["type"] === "nukacola_quantum")
                   .map((datum) => {
                     return (
-                    <CompletionItem
+                      <CompletionItem
                         name={datum["name"]}
                         id={datum["id"]}
                         location={datum["location"]}
@@ -235,16 +244,16 @@ console.log(collectableKeys);
                     ?.filter((ele) => ele["type"] === "rare_items")
                     ?.filter(
                       (ele) =>
-                        ele["secondary_type"] === "Museum of History Items"
+                        ele["secondary_type"] === "Museum of History Items",
                     )
                     .map((datum) => {
                       return (
-                      <CompletionItem
-                        name={datum["name"]}
-                        id={datum["id"]}
-                        location={datum["location"]}
-                        amount={datum["amount"]}
-                      />
+                        <CompletionItem
+                          name={datum["name"]}
+                          id={datum["id"]}
+                          location={datum["location"]}
+                          amount={datum["amount"]}
+                        />
                       );
                     })
                 }
@@ -259,16 +268,16 @@ console.log(collectableKeys);
                   data["collectables"]
                     ?.filter((ele) => ele["type"] === "rare_items")
                     ?.filter(
-                      (ele) => ele["secondary_type"] === "Sheet Music Books"
+                      (ele) => ele["secondary_type"] === "Sheet Music Books",
                     )
                     .map((datum) => {
                       return (
-                      <CompletionItem
-                        name={datum["name"]}
-                        id={datum["id"]}
-                        location={datum["location"]}
-                        amount={datum["amount"]}
-                      />
+                        <CompletionItem
+                          name={datum["name"]}
+                          id={datum["id"]}
+                          location={datum["location"]}
+                          amount={datum["amount"]}
+                        />
                       );
                     })
                 }
@@ -283,17 +292,15 @@ console.log(collectableKeys);
                 {
                   data["collectables"]
                     ?.filter((ele) => ele["type"] === "rare_items")
-                    ?.filter(
-                      (ele) => ele["secondary_type"] === "Buttercup Toy"
-                    )
+                    ?.filter((ele) => ele["secondary_type"] === "Buttercup Toy")
                     .map((datum) => {
                       return (
-                      <CompletionItem
-                        name={datum["name"]}
-                        id={datum["id"]}
-                        location={datum["location"]}
-                        amount={datum["amount"]}
-                      />
+                        <CompletionItem
+                          name={datum["name"]}
+                          id={datum["id"]}
+                          location={datum["location"]}
+                          amount={datum["amount"]}
+                        />
                       );
                     })
                 }
@@ -308,12 +315,12 @@ console.log(collectableKeys);
                     ?.filter((ele) => ele["secondary_type"] === "other")
                     .map((datum) => {
                       return (
-                      <CompletionItem
-                        name={datum["name"]}
-                        id={datum["id"]}
-                        location={datum["location"]}
-                        amount={datum["amount"]}
-                      />
+                        <CompletionItem
+                          name={datum["name"]}
+                          id={datum["id"]}
+                          location={datum["location"]}
+                          amount={datum["amount"]}
+                        />
                       );
                     })
                 }
@@ -326,7 +333,6 @@ console.log(collectableKeys);
         <button id="resetButton" class={buttonClazz}>Clear</button>
       </div>
     </game-checklist>
-  
   </div>
 
   <script>
@@ -338,36 +344,47 @@ console.log(collectableKeys);
         this.state = {};
 
         // Read the message from the data attribute.
-        this.querySelector("#clear-search-btn")?.addEventListener("click", (e) => {
-          e.preventDefault();
-          this.clearSearchResults();
-        });
+        this.querySelector("#clear-search-btn")?.addEventListener(
+          "click",
+          (e) => {
+            e.preventDefault();
+            console.log("click clear button");
+            this.clearSearchResults();
+          },
+        );
 
         // Read the message from the data attribute.
         const that = this;
-        this.querySelector("#main-search-box")?.addEventListener("keydown", (e) => {
-          const key = e?.key;
-          const subtractive = (key === "Backspace" || key === "Delete");
-          const elements: Array<Element> = [];
+        this.querySelector("#main-search-box")?.addEventListener(
+          "keydown",
+          (e) => {
+            const key = e?.key;
+            const subtractive = key === "Backspace" || key === "Delete";
+            const elements: Array<Element> = [];
 
-          let searchTerm = `${e?.target?.value}`
-          if (subtractive) {
-            searchTerm = searchTerm.slice(0, searchTerm.length-1)
-          } else {
-            searchTerm += key;
-          }
-          console.log(`search term is :: ${searchTerm}`)
-          that.querySelectorAll('div[id^="completion-item-"]').forEach(item => elements.push(item))
+            let searchTerm = `${e?.target?.value}`;
+            if (subtractive) {
+              searchTerm = searchTerm.slice(0, searchTerm.length - 1);
+            } else {
+              searchTerm += key;
+            }
+            console.log(`search term is :: ${searchTerm}`);
+            that
+              .querySelectorAll('div[id^="completion-item-"]')
+              .forEach((item) => elements.push(item));
 
-          elements.forEach(ele => {
-            ele.classList.add("hidden")
-          })
-          elements.filter(ele => ele.id.replaceAll("-", " ").includes(searchTerm.toLowerCase()))
-            .forEach(ele => {
-              ele.classList.remove("hidden")
-          })
-          
-        });      
+            elements.forEach((ele) => {
+              ele.classList.add("hidden");
+            });
+            elements
+              .filter((ele) =>
+                ele.id.replaceAll("-", " ").includes(searchTerm.toLowerCase()),
+              )
+              .forEach((ele) => {
+                ele.classList.remove("hidden");
+              });
+          },
+        );
 
         this.querySelector("#loadButton")?.addEventListener("click", (e) => {
           e.preventDefault();
@@ -390,7 +407,7 @@ console.log(collectableKeys);
         this.addSectionToggle("#hide-items-toggle", "#items-section");
         this.addSectionToggle(
           "#hide-collectables-toggle",
-          "#collectables-section"
+          "#collectables-section",
         );
 
         this.loadData();
@@ -429,10 +446,10 @@ console.log(collectableKeys);
         // let checked = Object.keys(Object.fromEntries(formData.entries())).length;
         const inputs = Array.from(this.getForm().querySelectorAll("input"));
         let checked = inputs.filter(
-          (ele) => !ele?.hasAttribute("data-ignore") && ele?.checked
+          (ele) => !ele?.hasAttribute("data-ignore") && ele?.checked,
         ).length;
         let total = inputs.filter(
-          (ele) => !ele?.hasAttribute("data-ignore")
+          (ele) => !ele?.hasAttribute("data-ignore"),
         ).length;
         this.getScoreboard().innerHTML = `${checked}/${total}`;
       }
@@ -446,13 +463,11 @@ console.log(collectableKeys);
 
       clearSearchResults() {
         console.log("saving data...");
-        this.querySelectorAll('div[id^="completion-item-"]')
-            .forEach(ele => {
-              ele.classList.remove("hidden")
-          })
-          document.getElementById("main-search-box").value = ""
-        }
-
+        this.querySelectorAll('div[id^="completion-item-"]').forEach((ele) => {
+          ele.classList.remove("hidden");
+        });
+        document.getElementById("main-search-box").value = "";
+      }
 
       loadData() {
         console.log("load data...");
@@ -462,7 +477,7 @@ console.log(collectableKeys);
             if (f3data[key] === "true") {
               console.log(key);
               let selectElement = this.querySelector(
-                `input[name="${key}"]`
+                `input[name="${key}"]`,
               ) as HTMLInputElement;
               console.log("selectElement", selectElement);
               selectElement.checked = true;

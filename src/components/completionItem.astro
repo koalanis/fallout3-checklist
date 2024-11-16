@@ -9,26 +9,31 @@ export interface Props {
   amount?: string | number;
 }
 const { name, location, acquired, id, repeatable, amount } = Astro.props;
-
 ---
 
-<div class="border border-pip-dark flex flex-row align-center" id={`completion-item-${id}`}>
+<div
+  class="border border-pip-dark flex flex-row align-center"
+  id={`completion-item-${id}`}
+>
   <div class="text-left col-span-2 p-2">
-    {!!name && (<div class="text-2xl">{name}</div>)}
-    {!!location && (<div>{`Location: ${location}`}</div>)}
-    {!!acquired && (<div>{`Acquired by ${acquired}`}</div>)}  
-    {!!amount && (
-      <div class="grid grid-cols-3 lg:grid-cols-5 flex-wrap gap-2 w-full">
-        {!!amount && Number(amount) > 1 && [...Array( Number(amount))].map( (_, idxx) => (
-          <Checkbox ignore size="md" circle id={`${id}-${idxx}--found`}/>
-        ))}
-      </div>
-    )}
+    {!!name && <div class="text-2xl">{name}</div>}
+    {!!location && <div>{`Location: ${location}`}</div>}
+    {!!acquired && <div>{`Acquired by ${acquired}`}</div>}
+    {
+      !!amount && (
+        <div class="grid grid-cols-3 lg:grid-cols-5 flex-wrap gap-2 w-full">
+          {!!amount &&
+            Number(amount) > 1 &&
+            [...Array(Number(amount))].map((_, idxx) => (
+              <Checkbox ignore size="md" circle id={`${id}-${idxx}--found`} />
+            ))}
+        </div>
+      )
+    }
   </div>
- 
+
   <div class="flex-auto flex grid gap-2 m-1 justify-end place-content-center">
-    <Checkbox id={`${id}-found`} label="Found"/>
-    {repeatable === "f" && <Checkbox id={`${id}-done`} label="Done"/>}
+    <Checkbox id={`${id}-found`} label="Found" />
+    {repeatable === "f" && <Checkbox id={`${id}-done`} label="Done" />}
   </div>
 </div>
-

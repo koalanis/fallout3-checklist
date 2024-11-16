@@ -1,47 +1,149 @@
 ---
-import Link from '../components/link.astro'
-import '../styles/base.css';
+import Link from "../components/link.astro";
+import "../styles/base.css";
 
-const {showNav, baseName} = Astro.props;
+const { showNav, baseName } = Astro.props;
 
 let parsedBase = baseName;
-while(parsedBase?.startsWith("/")) {
-	parsedBase = parsedBase.slice(1);
+while (parsedBase?.startsWith("/")) {
+  parsedBase = parsedBase.slice(1);
 }
 
-if(parsedBase?.length > 0) {
-	parsedBase = parsedBase+"/"
+if (parsedBase?.length > 0) {
+  parsedBase = parsedBase + "/";
 }
-
-
-
 ---
 
 <html lang="en">
-	<head>
-		<base href={`/fallout3-checklist/`} />
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/fallout3-checklist/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-    
-		<!-- Google Font -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="preload" href="https://fonts.googleapis.com/css?family=VT323&display=swap" as="style"onload="this.onload=null;this.rel='stylesheet'" />
-			<title>Fallout 3 Checklist</title>
+  <head>
+    <base href={`/fallout3-checklist/`} />
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/fallout3-checklist/favicon.ico"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
 
-		<script is:inline src="/fallout3-checklist/colorToggle.js"></script>
-			
-	</head>
-  <body class="bg-stone-900 min-h-screen overflow-x-auto">
-		{showNav && 
-			<nav>
-				<div class="pl-4 pt-4">
-					<Link href="/fallout3-checklist/" label="<--- Back to Home" />
-				</div>
-			</nav>
-		}
-    <slot />
-	</body>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=VT323&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <title>Fallout 3 Checklist</title>
+
+    <script is:inline src="/fallout3-checklist/colorToggle.js"></script>
+  </head>
+  <body class="bg-stone-900 min-h-screen overflow-x-auto z-20">
+    <div id="canvas-ctn" class="fixed top-0 left-0 w-screen h-screen">
+      <canvas id="background-canvas" class="bg-red-100 relative w-full h-full"
+      ></canvas>
+    </div>
+    <div
+      class="fixed top-0 left-0 w-screen h-screen bg-transparent overflow-auto"
+    >
+      {
+        showNav && (
+          <nav>
+            <div class="pl-4 pt-4">
+              <Link href="/fallout3-checklist/" label="<--- Back to Home" />
+            </div>
+          </nav>
+        )
+      }
+      <slot />
+    </div>
+  </body>
 </html>
+
+<script>
+  let canvas = document.getElementById(
+    "background-canvas",
+  ) as HTMLCanvasElement;
+  let ctx = canvas.getContext("2d");
+  function setCanvasScalingFactor() {
+    return window.devicePixelRatio || 1;
+  }
+
+  function getCurrentColor() {
+    var style = getComputedStyle(document.body);
+    return style.getPropertyValue("--pip-dark");
+  }
+
+  function getCurrentColorBackground() {
+    var style = getComputedStyle(document.body);
+    return style.getPropertyValue("--pip-dark");
+  }
+
+  let scanLineSize = 200;
+  let yLoc = -1 * scanLineSize;
+  let scanLineCooloff = 500;
+  function incrementYLoc() {
+    if (scanLineCooloff > 0) {
+      scanLineCooloff -= 1;
+      return;
+    }
+
+    yLoc += 1;
+    if (yLoc > canvas.height) {
+      yLoc = -1 * scanLineSize;
+      scanLineCooloff = 500;
+    }
+  }
+
+  function resizeCanvas() {
+    //Gets the devicePixelRatio
+    var pixelRatio = setCanvasScalingFactor();
+
+    //The viewport is in portrait mode, so var width should be based off viewport WIDTH
+    if (window.innerHeight > window.innerWidth) {
+      //Makes the canvas 100% of the viewport width
+      var width = Math.round(1.0 * window.innerWidth);
+    }
+    //The viewport is in landscape mode, so var width should be based off viewport HEIGHT
+    else {
+      //Makes the canvas 100% of the viewport height
+      var width = Math.round(1.0 * window.innerHeight);
+    }
+
+    //This is done in order to maintain the 1:1 aspect ratio, adjust as needed
+    var height = width;
+
+    canvas.width = width * pixelRatio;
+    canvas.height = height * pixelRatio;
+    draw();
+  }
+  function draw() {
+    ctx.fillStyle = "#1c1917ff";
+    // ctx.fillStyle = "rgba(#ff0000, 1)";
+
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    const gradient = ctx.createLinearGradient(
+      canvas.width / 2,
+      yLoc,
+      canvas.width / 2,
+      yLoc + 100,
+    );
+    gradient.addColorStop(0, `${getCurrentColor()}00`);
+    gradient.addColorStop(1, `${getCurrentColor()}05`);
+    // gradient.addColorStop(1, "green");
+    // ctx.fillStyle = `${getCurrentColor()}88`;
+    ctx.fillStyle = gradient;
+
+    ctx.fillRect(0, yLoc, canvas.width, scanLineSize);
+  }
+
+  window.addEventListener("resize", resizeCanvas, false);
+
+  resizeCanvas();
+  draw();
+  setInterval(() => {
+    draw();
+    incrementYLoc();
+  }, 5);
+</script>

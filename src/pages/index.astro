@@ -1,19 +1,25 @@
 ---
-import { linkStyles } from '../constants/styles';
-import Layout from '../layouts/layout.astro'
+import { linkStyles } from "../constants/styles";
+import Layout from "../layouts/layout.astro";
 ---
 
 <Layout>
-	<div class="bg-stone-900 h-screen grid place-items-center text-pip-dark text-center text-mono">
-		<div class="flex flex-col justify-between grid">
-			<h1 class="text-7xl font-semibold drop-shadow-lg shadow-pip-light text-shadow shadow-pip-mid">Fallout 3 Checklist</h1>
-			<div class="text-2xl">
-				A 100+% Completionist Guide of the Capital Wasteland
-			</div>
-			<div class="grid grid-cols-2">
-				<a href="about" class={linkStyles}>About</a>
-				<a href="guide" class={linkStyles}>Guide</a>
-			</div>
-		</div>
-	</div>
+  <div
+    class="h-screen grid place-items-center text-pip-dark text-center text-mono"
+  >
+    <div class="flex flex-col justify-between grid">
+      <h1
+        class="md:text-9xl text-7xl font-semibold drop-shadow-lg shadow-pip-light text-shadow shadow-pip-mid"
+      >
+        Fallout 3 Checklist
+      </h1>
+      <div class="text-2xl">
+        A 100+% Completionist Guide of the Capital Wasteland
+      </div>
+      <div class="grid grid-cols-2 italic">
+        <a href="about" class={linkStyles}>About</a>
+        <a href="guide" class={linkStyles}>Guide</a>
+      </div>
+    </div>
+  </div>
 </Layout>

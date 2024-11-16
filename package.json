@@ -1,5 +1,5 @@
 {
-  "name": "@example/minimal",
+  "name": "@koalanis/fallout-checklist",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -9,17 +9,25 @@
     "build": "npm run generate:data && astro build",
     "preview": "astro preview",
     "generate:data": "node src/scripts/generateData.cjs",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
   },
   "dependencies": {
-    "@astrojs/tailwind": "^3.0.0",
-    "astro": "^2.0.2",
+    "@astrojs/tailwind": "^5.0.0",
+    "astro": "^3.0.0",
     "fast-csv": "^4.3.6",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
-    "daisyui": "^4.9.0"
+    "@typescript-eslint/parser": "^8.14.0",
+    "daisyui": "^4.9.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-astro": "^1.3.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "prettier": "^3.3.3",
+    "prettier-config-standard": "^7.0.0",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }

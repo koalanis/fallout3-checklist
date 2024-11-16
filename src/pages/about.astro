@@ -1,44 +1,58 @@
 ---
-import Link from '../components/link.astro';
-import Layout from '../layouts/layout.astro'
+import Link from "../components/link.astro";
+import Layout from "../layouts/layout.astro";
 
-const url = "https://www.reddit.com/r/Fallout/comments/7z843q/i_made_a_fallout_3_fullcompletion_checklist/";
+const url =
+  "https://www.reddit.com/r/Fallout/comments/7z843q/i_made_a_fallout_3_fullcompletion_checklist/";
 ---
 
 <Layout showNav>
-	<div class="mx-auto container bg-stone-900  flex-col justify-center text-pip-dark text-mono">
-		<div class="text-6xl m-4">About</div>
+  <div
+    class="mx-auto container bg-transparent flex-col justify-center text-pip-dark text-mono"
+  >
+    <div class="text-6xl m-4">About</div>
     <div class="">
       <h2 class="italic text-3xl">Inspiration / Recognitions</h2>
-      <p class=" ml-4">This checklist website is inspired by a few things. 
-        First, this checklist is mainly inspired by 
-        <span class="italic">FALLOUT 3 WASTELAND CHECKLIST </span> by Logea, 
-        a pdf checklist that was promoted on reddit in this <Link href={url} label="post"/>. 
+      <p class="ml-4">
+        This checklist website is inspired by a few things. First, this
+        checklist is mainly inspired by
+        <span class="italic">FALLOUT 3 WASTELAND CHECKLIST </span> by Logea, a pdf
+        checklist that was promoted on reddit in this <Link
+          href={url}
+          label="post"
+        />.
       </p>
       <p class="ml-4">
-        Transitive thanks should be given as well:
-        The format of this Fallout 3 checklist is based on the Mass Effect
-        Galactic Checklists by Teryx and ZimmMaster (formerly hosted at
-        masseffect.shockfront.net). Many, many thanks to them!
+        Transitive thanks should be given as well: The format of this Fallout 3
+        checklist is based on the Mass Effect Galactic Checklists by Teryx and
+        ZimmMaster (formerly hosted at masseffect.shockfront.net). Many, many
+        thanks to them!
       </p>
-      </div>
-      <div>
-        <h2 class="text-3xl">Disclaimer</h2>
-        <p class="ml-4">
-          All content is sourced from the Fallout Wiki, IGN’s quest guides,
-          or the game itself. Fallout is the intellectual property of
-          Bethesda Softworks LLC. 
-        </p>
-      </div>
+    </div>
+    <div>
+      <h2 class="text-3xl">Disclaimer</h2>
+      <p class="ml-4">
+        All content is sourced from the Fallout Wiki, IGN’s quest guides, or the
+        game itself. Fallout is the intellectual property of Bethesda Softworks
+        LLC.
+      </p>
+    </div>
 
-      <div class="text-center mt-12">
-        <p>Feel free to fork and share this checklist. Github Issues and Pull Requests are always welcome!</p>
-        <p>Have fun completing the wasteland and remember... Don't feed the Yao Guai!</p>
-      </div>
+    <div class="text-center mt-12">
+      <p>
+        Feel free to fork and share this checklist. Github Issues and Pull
+        Requests are always welcome!
+      </p>
+      <p>
+        Have fun completing the wasteland and remember... Don't feed the Yao
+        Guai!
+      </p>
+    </div>
 
-
-      <button id="colorButton" class="border border-pip-dark text-pip-dark p-2 hover:text-pip-light hover:border-pip-light">Toggle Color</button>
-
-
-	</div>
+    <button
+      id="colorButton"
+      class="border border-pip-dark text-pip-dark p-2 hover:text-pip-light hover:border-pip-light"
+      >Toggle Color</button
+    >
+  </div>
 </Layout>
