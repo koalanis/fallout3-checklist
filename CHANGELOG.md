@@ -1,4 +1,10 @@
-# April 4 2024
+# August 13 2026
+
+- upgraded Astro from v3 to v7
+- replaced the `@astrojs/tailwind` integration with a direct PostCSS setup (Tailwind config unchanged)
+- refreshed the GitHub Pages deploy workflow actions
+
+## April 4 2024
 
 - refactor
 - add search
