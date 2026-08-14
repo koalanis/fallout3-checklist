@@ -23,13 +23,13 @@ console.log(collectableKeys);
   <div
     class="grid place-items-center text-pip-dark text-center overflow-x-auto text-mono p-4 scroll-px-1.5 px-10"
   >
-    <h1 class="text-7xl underline mb-8 text-shadow-lg shadow-pip-light w-full">
+    <h1
+      class="text-7xl underline mb-8 text-shadow-lg text-shadow-pip-light w-full"
+    >
       Capital Wasteland Checklist
     </h1>
 
-    <game-checklist
-      class="grid grid-cols-1 gap-4 m-auto min-w-7/8 w-full max-w-9/10"
-    >
+    <game-checklist class="grid grid-cols-1 gap-4 m-auto w-full">
       <div
         class="border border-pip-dark flex flex-col gap-8 md:flex-row justify-between min-w-full"
       >
@@ -48,7 +48,7 @@ console.log(collectableKeys);
             id="main-search-box"
             type="text"
             placeholder="search here"
-            class="input self-center text-3xl input-bordered input flex-1 flex-wrap max-w-lg bg-stone-900"
+            class="self-center text-3xl flex-1 flex-wrap max-w-lg bg-stone-900 h-12 px-4 rounded-lg appearance-none border border-pip-mid/20"
           />
           <button
             id="clear-search-btn"
