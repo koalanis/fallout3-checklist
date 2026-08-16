@@ -60,9 +60,8 @@ if (ignore) {
 </div>
 
 <style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+  /* Makes the theme available to @apply without emitting a second copy of Tailwind. */
+  @reference "../styles/base.css";
 
   input:checked + div {
     @apply border-pip-mid;

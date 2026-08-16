@@ -1,4 +1,11 @@
-# April 4 2024
+# August 13 2026
+
+- upgraded Astro from v3 to v7
+- upgraded Tailwind from v3 to v4; `tailwind.config.cjs` is now CSS-first config in `src/styles/base.css`
+- dropped daisyUI, which was only styling the search box
+- refreshed the GitHub Pages deploy workflow actions
+
+## April 4 2024
 
 - refactor
 - add search

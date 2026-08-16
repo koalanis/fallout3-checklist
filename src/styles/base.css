@@ -1,7 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@theme {
+    --color-pip-light: var(--pip-light);
+    --color-pip-mid: var(--pip-mid);
+    --color-pip-dark: var(--pip-dark);
+
+    --font-sans:
+        "VT323", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+
+    --text-shadow-sm: 0 1px 2px currentcolor;
+    --text-shadow-md: 0 2px 4px currentcolor;
+    --text-shadow-lg: 0 8px 16px currentcolor;
+    --text-shadow-xl: 0 12px 24px currentcolor;
+}
 
 @layer base {
     :root,
@@ -21,5 +35,11 @@
         --pip-light: #bfffff;
         --pip-mid: #c0ffff;
         --pip-dark: #bfdfff;
+    }
+
+    /* Tailwind v4 drops the v3 preflight default of `cursor: pointer` on buttons. */
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        cursor: pointer;
     }
 }
