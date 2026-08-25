@@ -2,7 +2,12 @@
 import Link from "../components/link.astro";
 import "../styles/base.css";
 
-const { showNav, baseName } = Astro.props;
+const {
+  showNav,
+  baseName,
+  title = "Fallout 3 Checklist",
+  description = "A 100%+ completionist checklist for Fallout 3: every quest, item and collectible in the Capital Wasteland, with your progress saved as you go.",
+} = Astro.props;
 
 let parsedBase = baseName;
 while (parsedBase?.startsWith("/")) {
@@ -25,6 +30,7 @@ if (parsedBase?.length > 0) {
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +41,7 @@ if (parsedBase?.length > 0) {
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
-    <title>Fallout 3 Checklist</title>
+    <title>{title}</title>
 
     <script is:inline src="/fallout3-checklist/colorToggle.js"></script>
   </head>
@@ -49,10 +55,14 @@ if (parsedBase?.length > 0) {
     >
       {
         showNav && (
-          <nav>
-            <div class="pl-4 pt-4">
-              <Link href="/fallout3-checklist/" label="<--- Back to Home" />
-            </div>
+          <nav class="flex items-center justify-between gap-4 pl-4 pr-4 pt-4">
+            <Link href="/fallout3-checklist/" label="<--- Home" />
+            <button
+              id="colorButton"
+              class="border border-pip-dark text-pip-dark p-2 hover:text-pip-light hover:border-pip-light"
+            >
+              Change Theme
+            </button>
           </nav>
         )
       }

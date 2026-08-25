@@ -17,9 +17,24 @@ const agg = (acc, curr) => {
 
 const collectableKeys = data["collectables"].reduce(agg, []);
 console.log(collectableKeys);
+
+// Rendered into the scoreboard so the first paint shows the real total rather
+// than a placeholder the client script immediately overwrites. Mirrors the
+// count in updateScoreboard(): every non-ignored checkbox in the form.
+const totalCheckboxes =
+  data["quests"].reduce(
+    (n, quest) => n + 1 + (quest["repeatable"] === "f" ? 1 : 0),
+    0,
+  ) +
+  data["items"].length +
+  data["collectables"].length;
 ---
 
-<Layout showNav baseName={"guide"}>
+<Layout
+  showNav
+  baseName={"guide"}
+  title="Capital Wasteland Checklist | Fallout 3 Checklist"
+>
   <div
     class="grid place-items-center text-pip-dark text-center overflow-x-auto text-mono p-4 scroll-px-1.5 px-10"
   >
@@ -37,7 +52,7 @@ console.log(collectableKeys);
           <a class={`block ${linkStyles}`} href="guide/#quests">Quests</a>
           <a class={`block ${linkStyles}`} href="guide/#items">Items</a>
           <a class={`block ${linkStyles}`} href="guide/#collectables"
-            >Collectables</a
+            >Collectibles</a
           >
         </div>
 
@@ -47,38 +62,38 @@ console.log(collectableKeys);
           <input
             id="main-search-box"
             type="text"
-            placeholder="search here"
+            placeholder="Search the wasteland..."
             class="self-center text-3xl flex-1 flex-wrap max-w-lg bg-stone-900 h-12 px-4 rounded-lg appearance-none border border-pip-mid/20"
           />
           <button
             id="clear-search-btn"
             class="border w-fit self-center p-3 border-pip-mid w-1/4 sm:w-fit"
-            >Clear</button
+            >Clear Search</button
           >
         </div>
 
         <div class="p-2 flex flex-col justify-center order-first md:order-none">
-          <h4 class="text-2xl">Action Items</h4>
-          <h1 id="scoreboard" class="text-5xl">0/999</h1>
+          <h2 class="text-2xl">Progress</h2>
+          <p id="scoreboard" class="text-5xl">0/{totalCheckboxes}</p>
         </div>
       </div>
 
       <div>
-        <h3>Filters</h3>
+        <h2>Filters</h2>
         <div class="p-2 flex justify-between items-center">
           <Checkbox id="hide-quests-toggle" defaultChecked label="Quests" />
           <Checkbox id="hide-items-toggle" defaultChecked label="Items" />
           <Checkbox
             id="hide-collectables-toggle"
             defaultChecked
-            label="Collectables"
+            label="Collectibles"
           />
         </div>
       </div>
 
       <form id="game-form">
         <section id="quest-section">
-          <h1 id="quests" class="text-6xl m-2 underline">Quests</h1>
+          <h2 id="quests" class="text-6xl m-2 underline">Quests</h2>
           <div class="grid sm:grid-cols-2 gap-2 md:grid-cols-3 xl:grid-cols-6">
             {
               data["quests"]?.map((datum) => {
@@ -97,7 +112,7 @@ console.log(collectableKeys);
         </section>
 
         <section id="items-section">
-          <h1 id="items" class="text-6xl m-2 underline mb-8">Items</h1>
+          <h2 id="items" class="text-6xl m-2 underline mb-8">Items</h2>
 
           <h3 id="clothing" class="text-4xl m-2 italic">Clothing</h3>
           <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 xl:grid-cols-6">
@@ -134,9 +149,9 @@ console.log(collectableKeys);
           </div>
         </section>
         <section id="collectables-section">
-          <h1 id="collectables" class="text-6xl m-2 underline mb-8">
-            Collectables
-          </h1>
+          <h2 id="collectables" class="text-6xl m-2 underline mb-8">
+            Collectibles
+          </h2>
           <section id="bobblehead-section">
             <h3 id="bobblehead-heading" class="text-4xl m-2 italic">
               Bobbleheads
@@ -330,7 +345,7 @@ console.log(collectableKeys);
         </section>
       </form>
       <div class="p-2 flex flex-col justify-center">
-        <button id="resetButton" class={buttonClazz}>Clear</button>
+        <button id="resetButton" class={buttonClazz}>Reset All Progress</button>
       </div>
     </game-checklist>
   </div>

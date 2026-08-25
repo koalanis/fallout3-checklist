@@ -18,7 +18,11 @@ const { name, location, acquired, id, repeatable, amount } = Astro.props;
   <div class="text-left col-span-2 p-2">
     {!!name && <div class="text-2xl">{name}</div>}
     {!!location && <div>{`Location: ${location}`}</div>}
-    {!!acquired && <div>{`Acquired by ${acquired}`}</div>}
+    {
+      /* "Source" rather than "Acquired by": the field holds people ("Dad") as
+        well as events ("After completing Escape!"), and only one label fits both. */
+    }
+    {!!acquired && <div>{`Source: ${acquired}`}</div>}
     {
       !!amount && (
         <div class="grid grid-cols-3 lg:grid-cols-5 flex-wrap gap-2 w-full">
